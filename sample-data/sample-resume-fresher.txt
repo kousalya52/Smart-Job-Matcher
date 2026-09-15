@@ -1,0 +1,28 @@
+Priya Ramesh
+priya.ramesh@example.com | 9876501234
+linkedin.com/in/priyaramesh | github.com/priyaramesh
+
+EDUCATION
+B.Tech, Computer Science and Engineering — Anna University, 2026
+CGPA: 8.2/10
+
+SKILLS
+Python, JavaScript, HTML, CSS, React, Git, SQL, REST APIs
+
+PROJECTS
+- Built a personal expense tracker web app using React and Firebase, supporting real-time sync across devices.
+- Developed a REST API in Node.js and Express for a college event registration system used by 300+ students.
+- Designed and implemented a responsive portfolio website using HTML, CSS, and JavaScript.
+- Collaborated with a team of 4 to build a hackathon project that automated attendance using QR codes.
+
+INTERNSHIP
+Frontend Developer Intern — CodeNext Solutions (Jun 2025 - Aug 2025)
+- Implemented reusable React components, reducing page load time by 18%.
+- Fixed 20+ UI bugs reported through the internal tracking system.
+
+CERTIFICATIONS
+Meta Front-End Developer Professional Certificate
+freeCodeCamp Responsive Web Design Certification
+
+SOFT SKILLS
+Communication, Teamwork, Problem Solving

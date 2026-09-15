@@ -1,0 +1,28 @@
+Vignesh Kumar
+vignesh.kumar@example.com | 9445566778
+
+EDUCATION
+B.E Mechanical Engineering — PSG College of Technology, 2026
+CGPA: 7.9/10
+
+SKILLS
+AutoCAD, SolidWorks, GD&T, Manufacturing Processes, Thermodynamics,
+Quality Control, MS Office
+
+PROJECTS
+- Designed a gearbox assembly in SolidWorks and validated clearances using GD&T annotations.
+- Developed a 2D drafting package in AutoCAD for a 12-part sheet metal enclosure.
+- Analyzed heat transfer in a shell-and-tube exchanger as part of a final year project.
+- Collaborated with a team of 4 to build a go-kart chassis for an inter-college event.
+
+INTERNSHIP
+Production Trainee — Sakthi Auto Components (Jun 2025 - Jul 2025)
+- Studied CNC machining operations and documented cycle times across 3 machines.
+- Assisted the quality control team with dimensional inspection of 200+ components.
+
+CERTIFICATIONS
+Autodesk AutoCAD Certified User
+NPTEL Manufacturing Processes (Elite)
+
+SOFT SKILLS
+Problem Solving, Teamwork, Attention to Detail

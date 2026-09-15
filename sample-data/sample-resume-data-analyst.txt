@@ -1,0 +1,21 @@
+Karthik Selvam
+karthik.selvam@example.com | 9123456780
+
+EDUCATION
+B.Sc Statistics — Bharathidasan University, 2026
+
+SKILLS
+Excel, SQL, Python, Pandas, Power BI, Statistics
+
+PROJECTS
+- Built an interactive Power BI dashboard analyzing 2 years of retail sales data across 5 regions.
+- Automated a monthly reporting workflow in Python, cutting manual reporting time from 3 hours to 15 minutes.
+- Analyzed survey data using statistical methods to identify customer satisfaction drivers.
+- Created pivot-table based financial summaries in Excel for a student-run finance club.
+
+CERTIFICATIONS
+Google Data Analytics Professional Certificate
+Microsoft Power BI Data Analyst Associate (in progress)
+
+SOFT SKILLS
+Communication, Attention to detail

@@ -1,0 +1,4394 @@
+{
+  "skills": {
+    "html": {
+      "name": "HTML5",
+      "category": "Web",
+      "aliases": [
+        "html5",
+        "html"
+      ]
+    },
+    "css": {
+      "name": "CSS3",
+      "category": "Web",
+      "aliases": [
+        "css3",
+        "css",
+        "scss",
+        "sass"
+      ]
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "category": "Programming Language",
+      "aliases": [
+        "js",
+        "es6",
+        "ecmascript"
+      ]
+    },
+    "typescript": {
+      "name": "TypeScript",
+      "category": "Programming Language",
+      "aliases": [
+        "ts"
+      ]
+    },
+    "react": {
+      "name": "React",
+      "category": "Framework",
+      "aliases": [
+        "reactjs",
+        "react.js"
+      ]
+    },
+    "redux": {
+      "name": "Redux",
+      "category": "Framework",
+      "aliases": []
+    },
+    "vue": {
+      "name": "Vue.js",
+      "category": "Framework",
+      "aliases": [
+        "vuejs",
+        "vue.js"
+      ]
+    },
+    "angular": {
+      "name": "Angular",
+      "category": "Framework",
+      "aliases": [
+        "angularjs"
+      ]
+    },
+    "nextjs": {
+      "name": "Next.js",
+      "category": "Framework",
+      "aliases": [
+        "next.js",
+        "nextjs"
+      ]
+    },
+    "tailwind": {
+      "name": "Tailwind CSS",
+      "category": "Web",
+      "aliases": [
+        "tailwindcss"
+      ]
+    },
+    "responsive-design": {
+      "name": "Responsive Design",
+      "category": "Web",
+      "aliases": [
+        "responsive web design",
+        "mobile first"
+      ]
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "category": "Backend",
+      "aliases": [
+        "node",
+        "node.js"
+      ]
+    },
+    "express": {
+      "name": "Express.js",
+      "category": "Backend",
+      "aliases": [
+        "expressjs",
+        "express.js"
+      ]
+    },
+    "python": {
+      "name": "Python",
+      "category": "Programming Language",
+      "aliases": []
+    },
+    "django": {
+      "name": "Django",
+      "category": "Backend",
+      "aliases": []
+    },
+    "flask": {
+      "name": "Flask",
+      "category": "Backend",
+      "aliases": []
+    },
+    "java": {
+      "name": "Java",
+      "category": "Programming Language",
+      "aliases": []
+    },
+    "spring-boot": {
+      "name": "Spring Boot",
+      "category": "Backend",
+      "aliases": [
+        "spring",
+        "springboot"
+      ]
+    },
+    "php": {
+      "name": "PHP",
+      "category": "Programming Language",
+      "aliases": []
+    },
+    "c": {
+      "name": "C",
+      "category": "Programming Language",
+      "aliases": []
+    },
+    "cpp": {
+      "name": "C++",
+      "category": "Programming Language",
+      "aliases": [
+        "c++"
+      ]
+    },
+    "csharp": {
+      "name": "C#",
+      "category": "Programming Language",
+      "aliases": [
+        "c#",
+        ".net"
+      ]
+    },
+    "sql": {
+      "name": "SQL",
+      "category": "Database",
+      "aliases": [
+        "mysql",
+        "postgresql",
+        "postgres"
+      ]
+    },
+    "mongodb": {
+      "name": "MongoDB",
+      "category": "Database",
+      "aliases": [
+        "mongo",
+        "nosql"
+      ]
+    },
+    "firebase": {
+      "name": "Firebase",
+      "category": "Database",
+      "aliases": []
+    },
+    "git": {
+      "name": "Git & GitHub",
+      "category": "Tools",
+      "aliases": [
+        "github",
+        "version control"
+      ]
+    },
+    "docker": {
+      "name": "Docker",
+      "category": "DevOps",
+      "aliases": [
+        "containerization"
+      ]
+    },
+    "kubernetes": {
+      "name": "Kubernetes",
+      "category": "DevOps",
+      "aliases": [
+        "k8s"
+      ]
+    },
+    "aws": {
+      "name": "AWS",
+      "category": "Cloud",
+      "aliases": [
+        "amazon web services"
+      ]
+    },
+    "azure": {
+      "name": "Microsoft Azure",
+      "category": "Cloud",
+      "aliases": []
+    },
+    "gcp": {
+      "name": "Google Cloud Platform",
+      "category": "Cloud",
+      "aliases": [
+        "google cloud"
+      ]
+    },
+    "ci-cd": {
+      "name": "CI/CD",
+      "category": "DevOps",
+      "aliases": [
+        "jenkins",
+        "github actions",
+        "continuous integration"
+      ]
+    },
+    "linux": {
+      "name": "Linux",
+      "category": "Tools",
+      "aliases": [
+        "unix",
+        "bash",
+        "shell scripting"
+      ]
+    },
+    "rest-api": {
+      "name": "REST APIs",
+      "category": "Backend",
+      "aliases": [
+        "restful",
+        "api development"
+      ]
+    },
+    "graphql": {
+      "name": "GraphQL",
+      "category": "Backend",
+      "aliases": []
+    },
+    "pandas": {
+      "name": "Pandas",
+      "category": "Data",
+      "aliases": []
+    },
+    "numpy": {
+      "name": "NumPy",
+      "category": "Data",
+      "aliases": []
+    },
+    "excel": {
+      "name": "Excel",
+      "category": "Data",
+      "aliases": [
+        "ms excel",
+        "spreadsheets"
+      ]
+    },
+    "powerbi": {
+      "name": "Power BI",
+      "category": "Data",
+      "aliases": [
+        "power bi"
+      ]
+    },
+    "tableau": {
+      "name": "Tableau",
+      "category": "Data",
+      "aliases": []
+    },
+    "data-visualization": {
+      "name": "Data Visualization",
+      "category": "Data",
+      "aliases": [
+        "matplotlib",
+        "seaborn"
+      ]
+    },
+    "statistics": {
+      "name": "Statistics",
+      "category": "Data",
+      "aliases": [
+        "statistical analysis"
+      ]
+    },
+    "machine-learning": {
+      "name": "Machine Learning",
+      "category": "AI/ML",
+      "aliases": [
+        "ml"
+      ]
+    },
+    "deep-learning": {
+      "name": "Deep Learning",
+      "category": "AI/ML",
+      "aliases": [
+        "neural networks"
+      ]
+    },
+    "tensorflow": {
+      "name": "TensorFlow",
+      "category": "AI/ML",
+      "aliases": []
+    },
+    "pytorch": {
+      "name": "PyTorch",
+      "category": "AI/ML",
+      "aliases": []
+    },
+    "scikit-learn": {
+      "name": "Scikit-learn",
+      "category": "AI/ML",
+      "aliases": [
+        "sklearn"
+      ]
+    },
+    "nlp": {
+      "name": "Natural Language Processing",
+      "category": "AI/ML",
+      "aliases": [
+        "nlp"
+      ]
+    },
+    "computer-vision": {
+      "name": "Computer Vision",
+      "category": "AI/ML",
+      "aliases": [
+        "opencv"
+      ]
+    },
+    "android": {
+      "name": "Android Development",
+      "category": "Mobile",
+      "aliases": []
+    },
+    "kotlin": {
+      "name": "Kotlin",
+      "category": "Programming Language",
+      "aliases": []
+    },
+    "flutter": {
+      "name": "Flutter",
+      "category": "Mobile",
+      "aliases": []
+    },
+    "swift": {
+      "name": "Swift",
+      "category": "Programming Language",
+      "aliases": []
+    },
+    "react-native": {
+      "name": "React Native",
+      "category": "Mobile",
+      "aliases": []
+    },
+    "figma": {
+      "name": "Figma",
+      "category": "Design",
+      "aliases": []
+    },
+    "adobe-xd": {
+      "name": "Adobe XD",
+      "category": "Design",
+      "aliases": [
+        "xd"
+      ]
+    },
+    "wireframing": {
+      "name": "Wireframing & Prototyping",
+      "category": "Design",
+      "aliases": [
+        "prototyping"
+      ]
+    },
+    "user-research": {
+      "name": "User Research",
+      "category": "Design",
+      "aliases": [
+        "usability testing"
+      ]
+    },
+    "design-systems": {
+      "name": "Design Systems",
+      "category": "Design",
+      "aliases": []
+    },
+    "manual-testing": {
+      "name": "Manual Testing",
+      "category": "QA",
+      "aliases": []
+    },
+    "selenium": {
+      "name": "Selenium",
+      "category": "QA",
+      "aliases": [
+        "automation testing"
+      ]
+    },
+    "test-cases": {
+      "name": "Test Case Design",
+      "category": "QA",
+      "aliases": [
+        "test planning"
+      ]
+    },
+    "jira": {
+      "name": "JIRA",
+      "category": "Tools",
+      "aliases": []
+    },
+    "postman": {
+      "name": "Postman",
+      "category": "Tools",
+      "aliases": [
+        "api testing"
+      ]
+    },
+    "seo": {
+      "name": "SEO",
+      "category": "Marketing",
+      "aliases": [
+        "search engine optimization"
+      ]
+    },
+    "content-marketing": {
+      "name": "Content Marketing",
+      "category": "Marketing",
+      "aliases": []
+    },
+    "google-analytics": {
+      "name": "Google Analytics",
+      "category": "Marketing",
+      "aliases": []
+    },
+    "social-media-marketing": {
+      "name": "Social Media Marketing",
+      "category": "Marketing",
+      "aliases": [
+        "smm"
+      ]
+    },
+    "google-ads": {
+      "name": "Google Ads",
+      "category": "Marketing",
+      "aliases": [
+        "ppc"
+      ]
+    },
+    "network-security": {
+      "name": "Network Security",
+      "category": "Security",
+      "aliases": []
+    },
+    "ethical-hacking": {
+      "name": "Ethical Hacking",
+      "category": "Security",
+      "aliases": [
+        "penetration testing"
+      ]
+    },
+    "cryptography": {
+      "name": "Cryptography",
+      "category": "Security",
+      "aliases": []
+    },
+    "siem": {
+      "name": "SIEM Tools",
+      "category": "Security",
+      "aliases": [
+        "splunk"
+      ]
+    },
+    "communication": {
+      "name": "Communication",
+      "category": "Soft Skill",
+      "aliases": []
+    },
+    "problem-solving": {
+      "name": "Problem Solving",
+      "category": "Soft Skill",
+      "aliases": []
+    },
+    "teamwork": {
+      "name": "Teamwork",
+      "category": "Soft Skill",
+      "aliases": [
+        "collaboration"
+      ]
+    },
+    "tally": {
+      "name": "Tally ERP",
+      "category": "Finance",
+      "aliases": [
+        "tally erp",
+        "tally prime"
+      ]
+    },
+    "bookkeeping": {
+      "name": "Bookkeeping",
+      "category": "Finance",
+      "aliases": [
+        "book keeping"
+      ]
+    },
+    "financial-accounting": {
+      "name": "Financial Accounting",
+      "category": "Finance",
+      "aliases": [
+        "accounting"
+      ]
+    },
+    "taxation": {
+      "name": "Taxation",
+      "category": "Finance",
+      "aliases": [
+        "gst",
+        "income tax",
+        "tds"
+      ]
+    },
+    "auditing": {
+      "name": "Auditing",
+      "category": "Finance",
+      "aliases": [
+        "audit",
+        "internal audit"
+      ]
+    },
+    "financial-analysis": {
+      "name": "Financial Analysis",
+      "category": "Finance",
+      "aliases": []
+    },
+    "financial-modeling": {
+      "name": "Financial Modeling",
+      "category": "Finance",
+      "aliases": [
+        "dcf",
+        "valuation"
+      ]
+    },
+    "accounts-payable": {
+      "name": "Accounts Payable",
+      "category": "Finance",
+      "aliases": [
+        "accounts payable"
+      ]
+    },
+    "accounts-receivable": {
+      "name": "Accounts Receivable",
+      "category": "Finance",
+      "aliases": [
+        "accounts receivable"
+      ]
+    },
+    "sap": {
+      "name": "SAP ERP",
+      "category": "Finance",
+      "aliases": [
+        "sap fico",
+        "sap mm"
+      ]
+    },
+    "quickbooks": {
+      "name": "QuickBooks",
+      "category": "Finance",
+      "aliases": []
+    },
+    "payroll": {
+      "name": "Payroll Processing",
+      "category": "Finance",
+      "aliases": [
+        "payroll"
+      ]
+    },
+    "banking-operations": {
+      "name": "Banking Operations",
+      "category": "Finance",
+      "aliases": [
+        "retail banking"
+      ]
+    },
+    "risk-analysis": {
+      "name": "Risk Analysis",
+      "category": "Finance",
+      "aliases": [
+        "credit risk",
+        "risk assessment"
+      ]
+    },
+    "equity-research": {
+      "name": "Equity Research",
+      "category": "Finance",
+      "aliases": [
+        "stock analysis"
+      ]
+    },
+    "recruitment": {
+      "name": "Recruitment",
+      "category": "HR",
+      "aliases": [
+        "talent acquisition",
+        "hiring",
+        "sourcing candidates"
+      ]
+    },
+    "interviewing": {
+      "name": "Interviewing",
+      "category": "HR",
+      "aliases": [
+        "conducting interviews"
+      ]
+    },
+    "onboarding": {
+      "name": "Employee Onboarding",
+      "category": "HR",
+      "aliases": [
+        "onboarding"
+      ]
+    },
+    "hr-policies": {
+      "name": "HR Policies",
+      "category": "HR",
+      "aliases": [
+        "hr operations"
+      ]
+    },
+    "hrms": {
+      "name": "HRMS Tools",
+      "category": "HR",
+      "aliases": [
+        "hris",
+        "workday",
+        "zoho people"
+      ]
+    },
+    "employee-engagement": {
+      "name": "Employee Engagement",
+      "category": "HR",
+      "aliases": []
+    },
+    "labour-law": {
+      "name": "Labour Law Compliance",
+      "category": "HR",
+      "aliases": [
+        "labour law",
+        "statutory compliance"
+      ]
+    },
+    "performance-management": {
+      "name": "Performance Management",
+      "category": "HR",
+      "aliases": [
+        "appraisal"
+      ]
+    },
+    "crm": {
+      "name": "CRM Tools",
+      "category": "Sales",
+      "aliases": [
+        "salesforce",
+        "zoho crm",
+        "hubspot crm"
+      ]
+    },
+    "lead-generation": {
+      "name": "Lead Generation",
+      "category": "Sales",
+      "aliases": [
+        "prospecting"
+      ]
+    },
+    "negotiation": {
+      "name": "Negotiation",
+      "category": "Sales",
+      "aliases": [
+        "negotiating"
+      ]
+    },
+    "cold-calling": {
+      "name": "Cold Calling",
+      "category": "Sales",
+      "aliases": [
+        "telecalling",
+        "tele calling"
+      ]
+    },
+    "b2b-sales": {
+      "name": "B2B Sales",
+      "category": "Sales",
+      "aliases": [
+        "corporate sales",
+        "field sales"
+      ]
+    },
+    "market-research": {
+      "name": "Market Research",
+      "category": "Sales",
+      "aliases": [
+        "competitor analysis"
+      ]
+    },
+    "presentation-skills": {
+      "name": "Presentation Skills",
+      "category": "Soft Skill",
+      "aliases": [
+        "client presentation"
+      ]
+    },
+    "customer-service": {
+      "name": "Customer Service",
+      "category": "Sales",
+      "aliases": [
+        "customer support",
+        "client servicing"
+      ]
+    },
+    "retail-operations": {
+      "name": "Retail Operations",
+      "category": "Sales",
+      "aliases": [
+        "store operations"
+      ]
+    },
+    "inventory-management": {
+      "name": "Inventory Management",
+      "category": "Operations",
+      "aliases": [
+        "stock management"
+      ]
+    },
+    "visual-merchandising": {
+      "name": "Visual Merchandising",
+      "category": "Sales",
+      "aliases": [
+        "merchandising"
+      ]
+    },
+    "supply-chain": {
+      "name": "Supply Chain Management",
+      "category": "Operations",
+      "aliases": [
+        "scm"
+      ]
+    },
+    "logistics": {
+      "name": "Logistics",
+      "category": "Operations",
+      "aliases": [
+        "transportation management"
+      ]
+    },
+    "procurement": {
+      "name": "Procurement",
+      "category": "Operations",
+      "aliases": [
+        "purchasing",
+        "vendor sourcing"
+      ]
+    },
+    "warehouse-management": {
+      "name": "Warehouse Management",
+      "category": "Operations",
+      "aliases": [
+        "warehousing"
+      ]
+    },
+    "lean-six-sigma": {
+      "name": "Lean Six Sigma",
+      "category": "Operations",
+      "aliases": [
+        "six sigma",
+        "kaizen",
+        "lean manufacturing"
+      ]
+    },
+    "process-improvement": {
+      "name": "Process Improvement",
+      "category": "Operations",
+      "aliases": [
+        "process optimization"
+      ]
+    },
+    "vendor-management": {
+      "name": "Vendor Management",
+      "category": "Operations",
+      "aliases": [
+        "supplier management"
+      ]
+    },
+    "requirement-gathering": {
+      "name": "Requirement Gathering",
+      "category": "Business",
+      "aliases": [
+        "requirements analysis"
+      ]
+    },
+    "business-analysis": {
+      "name": "Business Analysis",
+      "category": "Business",
+      "aliases": [
+        "brd",
+        "gap analysis"
+      ]
+    },
+    "stakeholder-management": {
+      "name": "Stakeholder Management",
+      "category": "Business",
+      "aliases": [
+        "client management"
+      ]
+    },
+    "project-management": {
+      "name": "Project Management",
+      "category": "Business",
+      "aliases": [
+        "project planning"
+      ]
+    },
+    "agile-scrum": {
+      "name": "Agile & Scrum",
+      "category": "Business",
+      "aliases": [
+        "agile",
+        "scrum",
+        "kanban"
+      ]
+    },
+    "ms-office": {
+      "name": "MS Office",
+      "category": "Tools",
+      "aliases": [
+        "microsoft office",
+        "ms word",
+        "powerpoint",
+        "ms excel"
+      ]
+    },
+    "documentation": {
+      "name": "Documentation",
+      "category": "Business",
+      "aliases": [
+        "technical documentation",
+        "sop"
+      ]
+    },
+    "reporting": {
+      "name": "Reporting & Dashboards",
+      "category": "Business",
+      "aliases": [
+        "mis reporting",
+        "mis"
+      ]
+    },
+    "data-entry": {
+      "name": "Data Entry",
+      "category": "Tools",
+      "aliases": [
+        "data entry operator"
+      ]
+    },
+    "typing-speed": {
+      "name": "Typing Speed",
+      "category": "Tools",
+      "aliases": [
+        "typing"
+      ]
+    },
+    "autocad": {
+      "name": "AutoCAD",
+      "category": "Engineering",
+      "aliases": [
+        "auto cad"
+      ]
+    },
+    "solidworks": {
+      "name": "SolidWorks",
+      "category": "Engineering",
+      "aliases": [
+        "solid works"
+      ]
+    },
+    "catia": {
+      "name": "CATIA",
+      "category": "Engineering",
+      "aliases": []
+    },
+    "ansys": {
+      "name": "ANSYS",
+      "category": "Engineering",
+      "aliases": [
+        "fea",
+        "finite element analysis"
+      ]
+    },
+    "gd-t": {
+      "name": "GD&T",
+      "category": "Engineering",
+      "aliases": [
+        "geometric dimensioning"
+      ]
+    },
+    "cnc": {
+      "name": "CNC Machining",
+      "category": "Engineering",
+      "aliases": [
+        "cnc",
+        "vmc"
+      ]
+    },
+    "manufacturing-process": {
+      "name": "Manufacturing Processes",
+      "category": "Engineering",
+      "aliases": [
+        "production process"
+      ]
+    },
+    "thermodynamics": {
+      "name": "Thermodynamics",
+      "category": "Engineering",
+      "aliases": [
+        "heat transfer"
+      ]
+    },
+    "quality-control": {
+      "name": "Quality Control",
+      "category": "Engineering",
+      "aliases": [
+        "qc",
+        "quality assurance",
+        "qa qc"
+      ]
+    },
+    "iso-standards": {
+      "name": "ISO Standards",
+      "category": "Engineering",
+      "aliases": [
+        "iso 9001"
+      ]
+    },
+    "preventive-maintenance": {
+      "name": "Preventive Maintenance",
+      "category": "Engineering",
+      "aliases": [
+        "maintenance planning"
+      ]
+    },
+    "production-planning": {
+      "name": "Production Planning",
+      "category": "Engineering",
+      "aliases": [
+        "ppc"
+      ]
+    },
+    "staad-pro": {
+      "name": "STAAD Pro",
+      "category": "Engineering",
+      "aliases": [
+        "staad"
+      ]
+    },
+    "revit": {
+      "name": "Revit",
+      "category": "Engineering",
+      "aliases": [
+        "bim"
+      ]
+    },
+    "structural-analysis": {
+      "name": "Structural Analysis",
+      "category": "Engineering",
+      "aliases": [
+        "structural design"
+      ]
+    },
+    "surveying": {
+      "name": "Surveying",
+      "category": "Engineering",
+      "aliases": [
+        "total station",
+        "land surveying"
+      ]
+    },
+    "construction-management": {
+      "name": "Construction Management",
+      "category": "Engineering",
+      "aliases": [
+        "site management"
+      ]
+    },
+    "estimation-costing": {
+      "name": "Estimation & Costing",
+      "category": "Engineering",
+      "aliases": [
+        "quantity surveying",
+        "boq"
+      ]
+    },
+    "concrete-technology": {
+      "name": "Concrete Technology",
+      "category": "Engineering",
+      "aliases": [
+        "concrete mix design"
+      ]
+    },
+    "site-supervision": {
+      "name": "Site Supervision",
+      "category": "Engineering",
+      "aliases": [
+        "site execution"
+      ]
+    },
+    "circuit-design": {
+      "name": "Circuit Design",
+      "category": "Engineering",
+      "aliases": [
+        "circuit analysis"
+      ]
+    },
+    "plc-scada": {
+      "name": "PLC & SCADA",
+      "category": "Engineering",
+      "aliases": [
+        "plc",
+        "scada",
+        "automation"
+      ]
+    },
+    "power-systems": {
+      "name": "Power Systems",
+      "category": "Engineering",
+      "aliases": [
+        "power distribution"
+      ]
+    },
+    "embedded-systems": {
+      "name": "Embedded Systems",
+      "category": "Engineering",
+      "aliases": [
+        "microcontroller",
+        "arduino"
+      ]
+    },
+    "matlab": {
+      "name": "MATLAB",
+      "category": "Engineering",
+      "aliases": [
+        "simulink"
+      ]
+    },
+    "electrical-safety": {
+      "name": "Electrical Safety",
+      "category": "Engineering",
+      "aliases": [
+        "electrical maintenance"
+      ]
+    },
+    "vlsi": {
+      "name": "VLSI Design",
+      "category": "Engineering",
+      "aliases": [
+        "verilog",
+        "vhdl"
+      ]
+    },
+    "iot": {
+      "name": "IoT",
+      "category": "Engineering",
+      "aliases": [
+        "internet of things"
+      ]
+    },
+    "pcb-design": {
+      "name": "PCB Design",
+      "category": "Engineering",
+      "aliases": [
+        "pcb"
+      ]
+    },
+    "patient-care": {
+      "name": "Patient Care",
+      "category": "Healthcare",
+      "aliases": [
+        "nursing care"
+      ]
+    },
+    "clinical-procedures": {
+      "name": "Clinical Procedures",
+      "category": "Healthcare",
+      "aliases": [
+        "clinical skills"
+      ]
+    },
+    "medical-terminology": {
+      "name": "Medical Terminology",
+      "category": "Healthcare",
+      "aliases": []
+    },
+    "pharmacology": {
+      "name": "Pharmacology",
+      "category": "Healthcare",
+      "aliases": [
+        "pharmaceutics"
+      ]
+    },
+    "dispensing": {
+      "name": "Dispensing & Prescription Handling",
+      "category": "Healthcare",
+      "aliases": [
+        "dispensing"
+      ]
+    },
+    "lab-techniques": {
+      "name": "Laboratory Techniques",
+      "category": "Healthcare",
+      "aliases": [
+        "lab testing",
+        "pathology"
+      ]
+    },
+    "phlebotomy": {
+      "name": "Phlebotomy",
+      "category": "Healthcare",
+      "aliases": [
+        "blood collection"
+      ]
+    },
+    "infection-control": {
+      "name": "Infection Control",
+      "category": "Healthcare",
+      "aliases": [
+        "sterilization"
+      ]
+    },
+    "emr": {
+      "name": "EMR Systems",
+      "category": "Healthcare",
+      "aliases": [
+        "electronic medical records",
+        "hospital management system"
+      ]
+    },
+    "anatomy": {
+      "name": "Anatomy & Physiology",
+      "category": "Healthcare",
+      "aliases": [
+        "anatomy"
+      ]
+    },
+    "physiotherapy-techniques": {
+      "name": "Physiotherapy Techniques",
+      "category": "Healthcare",
+      "aliases": [
+        "rehabilitation"
+      ]
+    },
+    "vital-signs": {
+      "name": "Vital Signs Monitoring",
+      "category": "Healthcare",
+      "aliases": [
+        "patient monitoring"
+      ]
+    },
+    "lesson-planning": {
+      "name": "Lesson Planning",
+      "category": "Education",
+      "aliases": [
+        "lesson plans"
+      ]
+    },
+    "classroom-management": {
+      "name": "Classroom Management",
+      "category": "Education",
+      "aliases": []
+    },
+    "curriculum-development": {
+      "name": "Curriculum Development",
+      "category": "Education",
+      "aliases": [
+        "curriculum design"
+      ]
+    },
+    "student-assessment": {
+      "name": "Student Assessment",
+      "category": "Education",
+      "aliases": [
+        "evaluation"
+      ]
+    },
+    "subject-expertise": {
+      "name": "Subject Expertise",
+      "category": "Education",
+      "aliases": [
+        "subject knowledge"
+      ]
+    },
+    "edtech-tools": {
+      "name": "EdTech Tools",
+      "category": "Education",
+      "aliases": [
+        "google classroom",
+        "smart class"
+      ]
+    },
+    "content-writing": {
+      "name": "Content Writing",
+      "category": "Creative",
+      "aliases": [
+        "copywriting",
+        "blog writing"
+      ]
+    },
+    "editing-proofreading": {
+      "name": "Editing & Proofreading",
+      "category": "Creative",
+      "aliases": [
+        "proofreading"
+      ]
+    },
+    "storytelling": {
+      "name": "Storytelling",
+      "category": "Creative",
+      "aliases": [
+        "narrative"
+      ]
+    },
+    "wordpress": {
+      "name": "WordPress",
+      "category": "Creative",
+      "aliases": [
+        "cms"
+      ]
+    },
+    "adobe-photoshop": {
+      "name": "Adobe Photoshop",
+      "category": "Creative",
+      "aliases": [
+        "photoshop"
+      ]
+    },
+    "adobe-illustrator": {
+      "name": "Adobe Illustrator",
+      "category": "Creative",
+      "aliases": [
+        "illustrator"
+      ]
+    },
+    "canva": {
+      "name": "Canva",
+      "category": "Creative",
+      "aliases": []
+    },
+    "premiere-pro": {
+      "name": "Adobe Premiere Pro",
+      "category": "Creative",
+      "aliases": [
+        "premiere pro",
+        "premiere"
+      ]
+    },
+    "after-effects": {
+      "name": "After Effects",
+      "category": "Creative",
+      "aliases": [
+        "motion graphics"
+      ]
+    },
+    "video-editing": {
+      "name": "Video Editing",
+      "category": "Creative",
+      "aliases": [
+        "film editing"
+      ]
+    },
+    "photography": {
+      "name": "Photography",
+      "category": "Creative",
+      "aliases": [
+        "videography"
+      ]
+    },
+    "typography": {
+      "name": "Typography",
+      "category": "Creative",
+      "aliases": []
+    },
+    "branding": {
+      "name": "Branding",
+      "category": "Creative",
+      "aliases": [
+        "brand identity"
+      ]
+    },
+    "journalism": {
+      "name": "Reporting & Journalism",
+      "category": "Creative",
+      "aliases": [
+        "news reporting",
+        "news writing"
+      ]
+    },
+    "script-writing": {
+      "name": "Script Writing",
+      "category": "Creative",
+      "aliases": [
+        "scripting"
+      ]
+    },
+    "legal-research": {
+      "name": "Legal Research",
+      "category": "Legal",
+      "aliases": [
+        "case research"
+      ]
+    },
+    "contract-drafting": {
+      "name": "Contract Drafting",
+      "category": "Legal",
+      "aliases": [
+        "drafting agreements"
+      ]
+    },
+    "compliance": {
+      "name": "Regulatory Compliance",
+      "category": "Legal",
+      "aliases": [
+        "legal compliance"
+      ]
+    },
+    "litigation": {
+      "name": "Litigation Support",
+      "category": "Legal",
+      "aliases": [
+        "court procedures"
+      ]
+    },
+    "legal-documentation": {
+      "name": "Legal Documentation",
+      "category": "Legal",
+      "aliases": [
+        "legal drafting"
+      ]
+    },
+    "front-office": {
+      "name": "Front Office Operations",
+      "category": "Hospitality",
+      "aliases": [
+        "front desk",
+        "reception"
+      ]
+    },
+    "guest-relations": {
+      "name": "Guest Relations",
+      "category": "Hospitality",
+      "aliases": [
+        "guest handling"
+      ]
+    },
+    "food-beverage": {
+      "name": "Food & Beverage Service",
+      "category": "Hospitality",
+      "aliases": [
+        "f&b service"
+      ]
+    },
+    "culinary-skills": {
+      "name": "Culinary Skills",
+      "category": "Hospitality",
+      "aliases": [
+        "cooking",
+        "food preparation"
+      ]
+    },
+    "food-safety": {
+      "name": "Food Safety & Hygiene",
+      "category": "Hospitality",
+      "aliases": [
+        "haccp",
+        "fssai"
+      ]
+    },
+    "housekeeping": {
+      "name": "Housekeeping Operations",
+      "category": "Hospitality",
+      "aliases": [
+        "housekeeping"
+      ]
+    },
+    "pos-systems": {
+      "name": "POS Systems",
+      "category": "Hospitality",
+      "aliases": [
+        "billing software"
+      ]
+    },
+    "event-management": {
+      "name": "Event Management",
+      "category": "Hospitality",
+      "aliases": [
+        "event planning"
+      ]
+    },
+    "menu-planning": {
+      "name": "Menu Planning",
+      "category": "Hospitality",
+      "aliases": [
+        "menu costing"
+      ]
+    },
+    "agronomy": {
+      "name": "Agronomy",
+      "category": "Agriculture",
+      "aliases": []
+    },
+    "soil-science": {
+      "name": "Soil Science",
+      "category": "Agriculture",
+      "aliases": [
+        "soil testing"
+      ]
+    },
+    "crop-management": {
+      "name": "Crop Management",
+      "category": "Agriculture",
+      "aliases": [
+        "crop production"
+      ]
+    },
+    "farm-equipment": {
+      "name": "Farm Equipment",
+      "category": "Agriculture",
+      "aliases": [
+        "farm machinery"
+      ]
+    },
+    "pest-management": {
+      "name": "Pest Management",
+      "category": "Agriculture",
+      "aliases": [
+        "plant protection"
+      ]
+    },
+    "time-management": {
+      "name": "Time Management",
+      "category": "Soft Skill",
+      "aliases": []
+    },
+    "adaptability": {
+      "name": "Adaptability",
+      "category": "Soft Skill",
+      "aliases": [
+        "flexibility"
+      ]
+    },
+    "leadership": {
+      "name": "Leadership",
+      "category": "Soft Skill",
+      "aliases": [
+        "team leading"
+      ]
+    },
+    "attention-to-detail": {
+      "name": "Attention to Detail",
+      "category": "Soft Skill",
+      "aliases": [
+        "detail oriented"
+      ]
+    },
+    "multitasking": {
+      "name": "Multitasking",
+      "category": "Soft Skill",
+      "aliases": []
+    },
+    "empathy": {
+      "name": "Empathy",
+      "category": "Soft Skill",
+      "aliases": [
+        "compassion"
+      ]
+    }
+  },
+  "roles": {
+    "frontend-developer": {
+      "title": "Frontend Developer",
+      "tagline": "Builds the interfaces people touch",
+      "skills": [
+        {
+          "id": "html",
+          "weight": 3
+        },
+        {
+          "id": "css",
+          "weight": 3
+        },
+        {
+          "id": "javascript",
+          "weight": 3
+        },
+        {
+          "id": "react",
+          "weight": 2
+        },
+        {
+          "id": "git",
+          "weight": 2
+        },
+        {
+          "id": "responsive-design",
+          "weight": 2
+        },
+        {
+          "id": "typescript",
+          "weight": 1
+        },
+        {
+          "id": "redux",
+          "weight": 1
+        },
+        {
+          "id": "tailwind",
+          "weight": 1
+        },
+        {
+          "id": "rest-api",
+          "weight": 1
+        },
+        {
+          "id": "nextjs",
+          "weight": 1
+        }
+      ],
+      "category": "Information Technology"
+    },
+    "backend-developer": {
+      "title": "Backend Developer",
+      "tagline": "Builds the systems no one sees but everyone depends on",
+      "skills": [
+        {
+          "id": "python",
+          "weight": 2
+        },
+        {
+          "id": "nodejs",
+          "weight": 2
+        },
+        {
+          "id": "java",
+          "weight": 2
+        },
+        {
+          "id": "sql",
+          "weight": 3
+        },
+        {
+          "id": "rest-api",
+          "weight": 3
+        },
+        {
+          "id": "git",
+          "weight": 2
+        },
+        {
+          "id": "mongodb",
+          "weight": 1
+        },
+        {
+          "id": "django",
+          "weight": 1
+        },
+        {
+          "id": "express",
+          "weight": 1
+        },
+        {
+          "id": "spring-boot",
+          "weight": 1
+        },
+        {
+          "id": "docker",
+          "weight": 1
+        }
+      ],
+      "category": "Information Technology"
+    },
+    "fullstack-developer": {
+      "title": "Full Stack Developer",
+      "tagline": "Comfortable on both sides of the request",
+      "skills": [
+        {
+          "id": "html",
+          "weight": 2
+        },
+        {
+          "id": "css",
+          "weight": 2
+        },
+        {
+          "id": "javascript",
+          "weight": 3
+        },
+        {
+          "id": "react",
+          "weight": 2
+        },
+        {
+          "id": "nodejs",
+          "weight": 2
+        },
+        {
+          "id": "express",
+          "weight": 2
+        },
+        {
+          "id": "sql",
+          "weight": 2
+        },
+        {
+          "id": "mongodb",
+          "weight": 2
+        },
+        {
+          "id": "git",
+          "weight": 2
+        },
+        {
+          "id": "rest-api",
+          "weight": 2
+        },
+        {
+          "id": "docker",
+          "weight": 1
+        }
+      ],
+      "category": "Information Technology"
+    },
+    "data-analyst": {
+      "title": "Data Analyst",
+      "tagline": "Turns raw numbers into decisions",
+      "skills": [
+        {
+          "id": "excel",
+          "weight": 3
+        },
+        {
+          "id": "sql",
+          "weight": 3
+        },
+        {
+          "id": "python",
+          "weight": 2
+        },
+        {
+          "id": "statistics",
+          "weight": 2
+        },
+        {
+          "id": "powerbi",
+          "weight": 2
+        },
+        {
+          "id": "tableau",
+          "weight": 2
+        },
+        {
+          "id": "pandas",
+          "weight": 2
+        },
+        {
+          "id": "data-visualization",
+          "weight": 1
+        },
+        {
+          "id": "communication",
+          "weight": 1
+        }
+      ],
+      "category": "Data & AI"
+    },
+    "data-scientist": {
+      "title": "Data Scientist",
+      "tagline": "Finds the pattern hiding in the data",
+      "skills": [
+        {
+          "id": "python",
+          "weight": 3
+        },
+        {
+          "id": "statistics",
+          "weight": 3
+        },
+        {
+          "id": "pandas",
+          "weight": 2
+        },
+        {
+          "id": "numpy",
+          "weight": 2
+        },
+        {
+          "id": "machine-learning",
+          "weight": 3
+        },
+        {
+          "id": "scikit-learn",
+          "weight": 2
+        },
+        {
+          "id": "sql",
+          "weight": 2
+        },
+        {
+          "id": "data-visualization",
+          "weight": 1
+        },
+        {
+          "id": "deep-learning",
+          "weight": 1
+        }
+      ],
+      "category": "Data & AI"
+    },
+    "ml-engineer": {
+      "title": "Machine Learning Engineer",
+      "tagline": "Ships models that hold up in production",
+      "skills": [
+        {
+          "id": "python",
+          "weight": 3
+        },
+        {
+          "id": "machine-learning",
+          "weight": 3
+        },
+        {
+          "id": "deep-learning",
+          "weight": 3
+        },
+        {
+          "id": "tensorflow",
+          "weight": 2
+        },
+        {
+          "id": "pytorch",
+          "weight": 2
+        },
+        {
+          "id": "scikit-learn",
+          "weight": 1
+        },
+        {
+          "id": "nlp",
+          "weight": 1
+        },
+        {
+          "id": "computer-vision",
+          "weight": 1
+        },
+        {
+          "id": "docker",
+          "weight": 1
+        },
+        {
+          "id": "sql",
+          "weight": 1
+        }
+      ],
+      "category": "Data & AI"
+    },
+    "devops-engineer": {
+      "title": "DevOps Engineer",
+      "tagline": "Keeps the pipeline shipping smoothly",
+      "skills": [
+        {
+          "id": "linux",
+          "weight": 3
+        },
+        {
+          "id": "docker",
+          "weight": 3
+        },
+        {
+          "id": "kubernetes",
+          "weight": 2
+        },
+        {
+          "id": "ci-cd",
+          "weight": 3
+        },
+        {
+          "id": "aws",
+          "weight": 2
+        },
+        {
+          "id": "git",
+          "weight": 2
+        },
+        {
+          "id": "azure",
+          "weight": 1
+        },
+        {
+          "id": "gcp",
+          "weight": 1
+        }
+      ],
+      "category": "Information Technology"
+    },
+    "android-developer": {
+      "title": "Android Developer",
+      "tagline": "Builds what lives in people's pockets",
+      "skills": [
+        {
+          "id": "kotlin",
+          "weight": 3
+        },
+        {
+          "id": "java",
+          "weight": 2
+        },
+        {
+          "id": "android",
+          "weight": 3
+        },
+        {
+          "id": "sql",
+          "weight": 1
+        },
+        {
+          "id": "firebase",
+          "weight": 2
+        },
+        {
+          "id": "git",
+          "weight": 1
+        },
+        {
+          "id": "rest-api",
+          "weight": 1
+        },
+        {
+          "id": "flutter",
+          "weight": 1
+        }
+      ],
+      "category": "Information Technology"
+    },
+    "qa-engineer": {
+      "title": "QA / Test Engineer",
+      "tagline": "Finds what breaks before the user does",
+      "skills": [
+        {
+          "id": "manual-testing",
+          "weight": 3
+        },
+        {
+          "id": "test-cases",
+          "weight": 3
+        },
+        {
+          "id": "selenium",
+          "weight": 2
+        },
+        {
+          "id": "jira",
+          "weight": 2
+        },
+        {
+          "id": "postman",
+          "weight": 2
+        },
+        {
+          "id": "sql",
+          "weight": 1
+        },
+        {
+          "id": "communication",
+          "weight": 1
+        }
+      ],
+      "category": "Information Technology"
+    },
+    "ui-ux-designer": {
+      "title": "UI/UX Designer",
+      "tagline": "Designs how the product feels to use",
+      "skills": [
+        {
+          "id": "figma",
+          "weight": 3
+        },
+        {
+          "id": "wireframing",
+          "weight": 3
+        },
+        {
+          "id": "user-research",
+          "weight": 2
+        },
+        {
+          "id": "design-systems",
+          "weight": 2
+        },
+        {
+          "id": "adobe-xd",
+          "weight": 1
+        },
+        {
+          "id": "communication",
+          "weight": 1
+        }
+      ],
+      "category": "Design & Creative"
+    },
+    "digital-marketing": {
+      "title": "Digital Marketing Executive",
+      "tagline": "Gets the right message in front of the right person",
+      "skills": [
+        {
+          "id": "seo",
+          "weight": 3
+        },
+        {
+          "id": "content-marketing",
+          "weight": 2
+        },
+        {
+          "id": "google-analytics",
+          "weight": 2
+        },
+        {
+          "id": "social-media-marketing",
+          "weight": 2
+        },
+        {
+          "id": "google-ads",
+          "weight": 2
+        },
+        {
+          "id": "communication",
+          "weight": 1
+        }
+      ],
+      "category": "Marketing & Sales"
+    },
+    "cybersecurity-analyst": {
+      "title": "Cybersecurity Analyst",
+      "tagline": "Watches the walls so no one else has to",
+      "skills": [
+        {
+          "id": "network-security",
+          "weight": 3
+        },
+        {
+          "id": "ethical-hacking",
+          "weight": 2
+        },
+        {
+          "id": "cryptography",
+          "weight": 2
+        },
+        {
+          "id": "siem",
+          "weight": 2
+        },
+        {
+          "id": "linux",
+          "weight": 2
+        },
+        {
+          "id": "python",
+          "weight": 1
+        }
+      ],
+      "category": "Information Technology"
+    },
+    "cloud-engineer": {
+      "title": "Cloud Engineer",
+      "tagline": "Runs the infrastructure everything else sits on",
+      "category": "Information Technology",
+      "skills": [
+        {
+          "id": "aws",
+          "weight": 3
+        },
+        {
+          "id": "linux",
+          "weight": 3
+        },
+        {
+          "id": "docker",
+          "weight": 2
+        },
+        {
+          "id": "kubernetes",
+          "weight": 2
+        },
+        {
+          "id": "ci-cd",
+          "weight": 2
+        },
+        {
+          "id": "python",
+          "weight": 2
+        },
+        {
+          "id": "azure",
+          "weight": 1
+        },
+        {
+          "id": "gcp",
+          "weight": 1
+        },
+        {
+          "id": "git",
+          "weight": 1
+        }
+      ]
+    },
+    "database-administrator": {
+      "title": "Database Administrator",
+      "tagline": "Keeps the data fast, safe, and available",
+      "category": "Information Technology",
+      "skills": [
+        {
+          "id": "sql",
+          "weight": 3
+        },
+        {
+          "id": "mongodb",
+          "weight": 2
+        },
+        {
+          "id": "linux",
+          "weight": 2
+        },
+        {
+          "id": "python",
+          "weight": 1
+        },
+        {
+          "id": "aws",
+          "weight": 1
+        },
+        {
+          "id": "documentation",
+          "weight": 1
+        },
+        {
+          "id": "problem-solving",
+          "weight": 2
+        }
+      ]
+    },
+    "technical-support-engineer": {
+      "title": "Technical Support Engineer",
+      "tagline": "The person who actually fixes it",
+      "category": "Information Technology",
+      "skills": [
+        {
+          "id": "communication",
+          "weight": 3
+        },
+        {
+          "id": "problem-solving",
+          "weight": 3
+        },
+        {
+          "id": "linux",
+          "weight": 2
+        },
+        {
+          "id": "sql",
+          "weight": 2
+        },
+        {
+          "id": "customer-service",
+          "weight": 2
+        },
+        {
+          "id": "jira",
+          "weight": 1
+        },
+        {
+          "id": "rest-api",
+          "weight": 1
+        },
+        {
+          "id": "documentation",
+          "weight": 1
+        }
+      ]
+    },
+    "graphic-designer": {
+      "title": "Graphic Designer",
+      "tagline": "Makes ideas look like something",
+      "category": "Design & Creative",
+      "skills": [
+        {
+          "id": "adobe-photoshop",
+          "weight": 3
+        },
+        {
+          "id": "adobe-illustrator",
+          "weight": 3
+        },
+        {
+          "id": "typography",
+          "weight": 2
+        },
+        {
+          "id": "branding",
+          "weight": 2
+        },
+        {
+          "id": "canva",
+          "weight": 1
+        },
+        {
+          "id": "figma",
+          "weight": 1
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 1
+        }
+      ]
+    },
+    "video-editor": {
+      "title": "Video Editor",
+      "tagline": "Turns raw footage into something worth watching",
+      "category": "Design & Creative",
+      "skills": [
+        {
+          "id": "video-editing",
+          "weight": 3
+        },
+        {
+          "id": "premiere-pro",
+          "weight": 3
+        },
+        {
+          "id": "after-effects",
+          "weight": 2
+        },
+        {
+          "id": "storytelling",
+          "weight": 2
+        },
+        {
+          "id": "photography",
+          "weight": 1
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 1
+        }
+      ]
+    },
+    "content-writer": {
+      "title": "Content Writer",
+      "tagline": "Writes the words that sell and explain",
+      "category": "Design & Creative",
+      "skills": [
+        {
+          "id": "content-writing",
+          "weight": 3
+        },
+        {
+          "id": "editing-proofreading",
+          "weight": 3
+        },
+        {
+          "id": "seo",
+          "weight": 2
+        },
+        {
+          "id": "storytelling",
+          "weight": 2
+        },
+        {
+          "id": "wordpress",
+          "weight": 1
+        },
+        {
+          "id": "market-research",
+          "weight": 1
+        },
+        {
+          "id": "communication",
+          "weight": 2
+        }
+      ]
+    },
+    "journalist": {
+      "title": "Journalist / Reporter",
+      "tagline": "Finds the story and gets it right",
+      "category": "Design & Creative",
+      "skills": [
+        {
+          "id": "journalism",
+          "weight": 3
+        },
+        {
+          "id": "content-writing",
+          "weight": 3
+        },
+        {
+          "id": "editing-proofreading",
+          "weight": 2
+        },
+        {
+          "id": "interviewing",
+          "weight": 2
+        },
+        {
+          "id": "communication",
+          "weight": 2
+        },
+        {
+          "id": "market-research",
+          "weight": 1
+        },
+        {
+          "id": "photography",
+          "weight": 1
+        }
+      ]
+    },
+    "sales-executive": {
+      "title": "Sales Executive",
+      "tagline": "Turns conversations into closed deals",
+      "category": "Marketing & Sales",
+      "skills": [
+        {
+          "id": "communication",
+          "weight": 3
+        },
+        {
+          "id": "negotiation",
+          "weight": 3
+        },
+        {
+          "id": "crm",
+          "weight": 2
+        },
+        {
+          "id": "lead-generation",
+          "weight": 2
+        },
+        {
+          "id": "cold-calling",
+          "weight": 2
+        },
+        {
+          "id": "presentation-skills",
+          "weight": 2
+        },
+        {
+          "id": "ms-office",
+          "weight": 1
+        },
+        {
+          "id": "customer-service",
+          "weight": 1
+        }
+      ]
+    },
+    "business-development-executive": {
+      "title": "Business Development Executive",
+      "tagline": "Opens the doors nobody opened yet",
+      "category": "Marketing & Sales",
+      "skills": [
+        {
+          "id": "lead-generation",
+          "weight": 3
+        },
+        {
+          "id": "b2b-sales",
+          "weight": 3
+        },
+        {
+          "id": "communication",
+          "weight": 3
+        },
+        {
+          "id": "market-research",
+          "weight": 2
+        },
+        {
+          "id": "negotiation",
+          "weight": 2
+        },
+        {
+          "id": "crm",
+          "weight": 2
+        },
+        {
+          "id": "presentation-skills",
+          "weight": 1
+        }
+      ]
+    },
+    "customer-support-executive": {
+      "title": "Customer Support Executive",
+      "tagline": "Keeps customers from walking away",
+      "category": "Marketing & Sales",
+      "skills": [
+        {
+          "id": "customer-service",
+          "weight": 3
+        },
+        {
+          "id": "communication",
+          "weight": 3
+        },
+        {
+          "id": "empathy",
+          "weight": 2
+        },
+        {
+          "id": "crm",
+          "weight": 2
+        },
+        {
+          "id": "problem-solving",
+          "weight": 2
+        },
+        {
+          "id": "ms-office",
+          "weight": 1
+        },
+        {
+          "id": "multitasking",
+          "weight": 1
+        }
+      ]
+    },
+    "retail-store-manager": {
+      "title": "Retail Store Executive / Manager",
+      "tagline": "Runs the floor and the numbers behind it",
+      "category": "Marketing & Sales",
+      "skills": [
+        {
+          "id": "retail-operations",
+          "weight": 3
+        },
+        {
+          "id": "customer-service",
+          "weight": 3
+        },
+        {
+          "id": "inventory-management",
+          "weight": 2
+        },
+        {
+          "id": "visual-merchandising",
+          "weight": 2
+        },
+        {
+          "id": "leadership",
+          "weight": 2
+        },
+        {
+          "id": "pos-systems",
+          "weight": 1
+        },
+        {
+          "id": "ms-office",
+          "weight": 1
+        }
+      ]
+    },
+    "accountant": {
+      "title": "Accountant",
+      "tagline": "Keeps the books honest and current",
+      "category": "Finance & Accounting",
+      "skills": [
+        {
+          "id": "financial-accounting",
+          "weight": 3
+        },
+        {
+          "id": "tally",
+          "weight": 3
+        },
+        {
+          "id": "excel",
+          "weight": 3
+        },
+        {
+          "id": "taxation",
+          "weight": 2
+        },
+        {
+          "id": "bookkeeping",
+          "weight": 2
+        },
+        {
+          "id": "accounts-payable",
+          "weight": 1
+        },
+        {
+          "id": "accounts-receivable",
+          "weight": 1
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 2
+        },
+        {
+          "id": "sap",
+          "weight": 1
+        }
+      ]
+    },
+    "financial-analyst": {
+      "title": "Financial Analyst",
+      "tagline": "Turns financial data into decisions",
+      "category": "Finance & Accounting",
+      "skills": [
+        {
+          "id": "excel",
+          "weight": 3
+        },
+        {
+          "id": "financial-analysis",
+          "weight": 3
+        },
+        {
+          "id": "financial-modeling",
+          "weight": 2
+        },
+        {
+          "id": "financial-accounting",
+          "weight": 2
+        },
+        {
+          "id": "sql",
+          "weight": 1
+        },
+        {
+          "id": "powerbi",
+          "weight": 1
+        },
+        {
+          "id": "reporting",
+          "weight": 2
+        },
+        {
+          "id": "communication",
+          "weight": 1
+        }
+      ]
+    },
+    "auditor": {
+      "title": "Audit Associate",
+      "tagline": "Checks that the numbers say what they claim",
+      "category": "Finance & Accounting",
+      "skills": [
+        {
+          "id": "auditing",
+          "weight": 3
+        },
+        {
+          "id": "financial-accounting",
+          "weight": 3
+        },
+        {
+          "id": "excel",
+          "weight": 2
+        },
+        {
+          "id": "compliance",
+          "weight": 2
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 3
+        },
+        {
+          "id": "documentation",
+          "weight": 1
+        },
+        {
+          "id": "taxation",
+          "weight": 1
+        }
+      ]
+    },
+    "tax-associate": {
+      "title": "Tax Associate",
+      "tagline": "Navigates the rules so the filing is clean",
+      "category": "Finance & Accounting",
+      "skills": [
+        {
+          "id": "taxation",
+          "weight": 3
+        },
+        {
+          "id": "financial-accounting",
+          "weight": 2
+        },
+        {
+          "id": "excel",
+          "weight": 2
+        },
+        {
+          "id": "compliance",
+          "weight": 2
+        },
+        {
+          "id": "tally",
+          "weight": 1
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 2
+        },
+        {
+          "id": "documentation",
+          "weight": 1
+        }
+      ]
+    },
+    "banking-officer": {
+      "title": "Banking Officer / Associate",
+      "tagline": "The front line of retail banking",
+      "category": "Finance & Accounting",
+      "skills": [
+        {
+          "id": "banking-operations",
+          "weight": 3
+        },
+        {
+          "id": "customer-service",
+          "weight": 3
+        },
+        {
+          "id": "communication",
+          "weight": 2
+        },
+        {
+          "id": "ms-office",
+          "weight": 2
+        },
+        {
+          "id": "risk-analysis",
+          "weight": 1
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 2
+        },
+        {
+          "id": "crm",
+          "weight": 1
+        }
+      ]
+    },
+    "hr-recruiter": {
+      "title": "HR Recruiter",
+      "tagline": "Finds the right person before someone else does",
+      "category": "Human Resources",
+      "skills": [
+        {
+          "id": "recruitment",
+          "weight": 3
+        },
+        {
+          "id": "interviewing",
+          "weight": 3
+        },
+        {
+          "id": "communication",
+          "weight": 3
+        },
+        {
+          "id": "hrms",
+          "weight": 2
+        },
+        {
+          "id": "ms-office",
+          "weight": 1
+        },
+        {
+          "id": "onboarding",
+          "weight": 1
+        },
+        {
+          "id": "time-management",
+          "weight": 1
+        }
+      ]
+    },
+    "hr-generalist": {
+      "title": "HR Generalist / Executive",
+      "tagline": "Holds the people side of the company together",
+      "category": "Human Resources",
+      "skills": [
+        {
+          "id": "hr-policies",
+          "weight": 3
+        },
+        {
+          "id": "recruitment",
+          "weight": 2
+        },
+        {
+          "id": "payroll",
+          "weight": 2
+        },
+        {
+          "id": "employee-engagement",
+          "weight": 2
+        },
+        {
+          "id": "labour-law",
+          "weight": 2
+        },
+        {
+          "id": "hrms",
+          "weight": 2
+        },
+        {
+          "id": "communication",
+          "weight": 2
+        },
+        {
+          "id": "performance-management",
+          "weight": 1
+        }
+      ]
+    },
+    "business-analyst": {
+      "title": "Business Analyst",
+      "tagline": "Translates what the business wants into what gets built",
+      "category": "Business & Operations",
+      "skills": [
+        {
+          "id": "business-analysis",
+          "weight": 3
+        },
+        {
+          "id": "requirement-gathering",
+          "weight": 3
+        },
+        {
+          "id": "excel",
+          "weight": 2
+        },
+        {
+          "id": "sql",
+          "weight": 2
+        },
+        {
+          "id": "documentation",
+          "weight": 2
+        },
+        {
+          "id": "stakeholder-management",
+          "weight": 2
+        },
+        {
+          "id": "agile-scrum",
+          "weight": 1
+        },
+        {
+          "id": "communication",
+          "weight": 2
+        }
+      ]
+    },
+    "operations-executive": {
+      "title": "Operations Executive",
+      "tagline": "Makes the day-to-day actually run",
+      "category": "Business & Operations",
+      "skills": [
+        {
+          "id": "process-improvement",
+          "weight": 2
+        },
+        {
+          "id": "ms-office",
+          "weight": 3
+        },
+        {
+          "id": "excel",
+          "weight": 2
+        },
+        {
+          "id": "reporting",
+          "weight": 2
+        },
+        {
+          "id": "vendor-management",
+          "weight": 1
+        },
+        {
+          "id": "time-management",
+          "weight": 2
+        },
+        {
+          "id": "communication",
+          "weight": 2
+        },
+        {
+          "id": "problem-solving",
+          "weight": 2
+        }
+      ]
+    },
+    "supply-chain-executive": {
+      "title": "Supply Chain / Logistics Executive",
+      "tagline": "Gets things where they need to be",
+      "category": "Business & Operations",
+      "skills": [
+        {
+          "id": "supply-chain",
+          "weight": 3
+        },
+        {
+          "id": "logistics",
+          "weight": 3
+        },
+        {
+          "id": "inventory-management",
+          "weight": 2
+        },
+        {
+          "id": "procurement",
+          "weight": 2
+        },
+        {
+          "id": "excel",
+          "weight": 2
+        },
+        {
+          "id": "warehouse-management",
+          "weight": 1
+        },
+        {
+          "id": "vendor-management",
+          "weight": 1
+        },
+        {
+          "id": "sap",
+          "weight": 1
+        }
+      ]
+    },
+    "project-coordinator": {
+      "title": "Project Coordinator",
+      "tagline": "Keeps the plan, the people, and the dates aligned",
+      "category": "Business & Operations",
+      "skills": [
+        {
+          "id": "project-management",
+          "weight": 3
+        },
+        {
+          "id": "communication",
+          "weight": 3
+        },
+        {
+          "id": "ms-office",
+          "weight": 2
+        },
+        {
+          "id": "agile-scrum",
+          "weight": 2
+        },
+        {
+          "id": "stakeholder-management",
+          "weight": 2
+        },
+        {
+          "id": "documentation",
+          "weight": 2
+        },
+        {
+          "id": "time-management",
+          "weight": 2
+        }
+      ]
+    },
+    "data-entry-operator": {
+      "title": "Data Entry Operator",
+      "tagline": "Accuracy at speed, every single record",
+      "category": "Business & Operations",
+      "skills": [
+        {
+          "id": "data-entry",
+          "weight": 3
+        },
+        {
+          "id": "typing-speed",
+          "weight": 3
+        },
+        {
+          "id": "ms-office",
+          "weight": 2
+        },
+        {
+          "id": "excel",
+          "weight": 2
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 3
+        },
+        {
+          "id": "time-management",
+          "weight": 1
+        }
+      ]
+    },
+    "mechanical-design-engineer": {
+      "title": "Mechanical Design Engineer",
+      "tagline": "Designs the part before it exists",
+      "category": "Core Engineering",
+      "skills": [
+        {
+          "id": "autocad",
+          "weight": 3
+        },
+        {
+          "id": "solidworks",
+          "weight": 3
+        },
+        {
+          "id": "gd-t",
+          "weight": 2
+        },
+        {
+          "id": "manufacturing-process",
+          "weight": 2
+        },
+        {
+          "id": "catia",
+          "weight": 1
+        },
+        {
+          "id": "ansys",
+          "weight": 1
+        },
+        {
+          "id": "thermodynamics",
+          "weight": 1
+        },
+        {
+          "id": "problem-solving",
+          "weight": 1
+        }
+      ]
+    },
+    "production-engineer": {
+      "title": "Production / Manufacturing Engineer",
+      "tagline": "Keeps the line running and improving",
+      "category": "Core Engineering",
+      "skills": [
+        {
+          "id": "manufacturing-process",
+          "weight": 3
+        },
+        {
+          "id": "production-planning",
+          "weight": 3
+        },
+        {
+          "id": "lean-six-sigma",
+          "weight": 2
+        },
+        {
+          "id": "quality-control",
+          "weight": 2
+        },
+        {
+          "id": "cnc",
+          "weight": 1
+        },
+        {
+          "id": "preventive-maintenance",
+          "weight": 2
+        },
+        {
+          "id": "ms-office",
+          "weight": 1
+        },
+        {
+          "id": "leadership",
+          "weight": 1
+        }
+      ]
+    },
+    "quality-engineer": {
+      "title": "Quality Engineer (QA/QC)",
+      "tagline": "The last check before it reaches the customer",
+      "category": "Core Engineering",
+      "skills": [
+        {
+          "id": "quality-control",
+          "weight": 3
+        },
+        {
+          "id": "iso-standards",
+          "weight": 3
+        },
+        {
+          "id": "gd-t",
+          "weight": 2
+        },
+        {
+          "id": "lean-six-sigma",
+          "weight": 2
+        },
+        {
+          "id": "documentation",
+          "weight": 2
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 3
+        },
+        {
+          "id": "manufacturing-process",
+          "weight": 1
+        }
+      ]
+    },
+    "civil-engineer": {
+      "title": "Civil Engineer",
+      "tagline": "Designs the structures people live and work in",
+      "category": "Core Engineering",
+      "skills": [
+        {
+          "id": "autocad",
+          "weight": 3
+        },
+        {
+          "id": "structural-analysis",
+          "weight": 3
+        },
+        {
+          "id": "estimation-costing",
+          "weight": 2
+        },
+        {
+          "id": "staad-pro",
+          "weight": 2
+        },
+        {
+          "id": "concrete-technology",
+          "weight": 2
+        },
+        {
+          "id": "revit",
+          "weight": 1
+        },
+        {
+          "id": "surveying",
+          "weight": 1
+        },
+        {
+          "id": "construction-management",
+          "weight": 1
+        }
+      ]
+    },
+    "site-engineer": {
+      "title": "Site Engineer / Supervisor",
+      "tagline": "Turns the drawing into the building",
+      "category": "Core Engineering",
+      "skills": [
+        {
+          "id": "site-supervision",
+          "weight": 3
+        },
+        {
+          "id": "construction-management",
+          "weight": 3
+        },
+        {
+          "id": "autocad",
+          "weight": 2
+        },
+        {
+          "id": "surveying",
+          "weight": 2
+        },
+        {
+          "id": "estimation-costing",
+          "weight": 2
+        },
+        {
+          "id": "quality-control",
+          "weight": 1
+        },
+        {
+          "id": "leadership",
+          "weight": 2
+        },
+        {
+          "id": "communication",
+          "weight": 1
+        }
+      ]
+    },
+    "electrical-engineer": {
+      "title": "Electrical Engineer",
+      "tagline": "Designs and maintains the power behind it",
+      "category": "Core Engineering",
+      "skills": [
+        {
+          "id": "power-systems",
+          "weight": 3
+        },
+        {
+          "id": "circuit-design",
+          "weight": 3
+        },
+        {
+          "id": "electrical-safety",
+          "weight": 2
+        },
+        {
+          "id": "autocad",
+          "weight": 2
+        },
+        {
+          "id": "plc-scada",
+          "weight": 2
+        },
+        {
+          "id": "matlab",
+          "weight": 1
+        },
+        {
+          "id": "preventive-maintenance",
+          "weight": 1
+        },
+        {
+          "id": "problem-solving",
+          "weight": 1
+        }
+      ]
+    },
+    "electronics-engineer": {
+      "title": "Electronics / Embedded Engineer",
+      "tagline": "Builds the intelligence into the hardware",
+      "category": "Core Engineering",
+      "skills": [
+        {
+          "id": "embedded-systems",
+          "weight": 3
+        },
+        {
+          "id": "circuit-design",
+          "weight": 3
+        },
+        {
+          "id": "c",
+          "weight": 2
+        },
+        {
+          "id": "pcb-design",
+          "weight": 2
+        },
+        {
+          "id": "matlab",
+          "weight": 1
+        },
+        {
+          "id": "vlsi",
+          "weight": 1
+        },
+        {
+          "id": "iot",
+          "weight": 1
+        },
+        {
+          "id": "problem-solving",
+          "weight": 1
+        }
+      ]
+    },
+    "automobile-engineer": {
+      "title": "Automobile Engineer",
+      "tagline": "Designs and services what moves people",
+      "category": "Core Engineering",
+      "skills": [
+        {
+          "id": "autocad",
+          "weight": 3
+        },
+        {
+          "id": "catia",
+          "weight": 2
+        },
+        {
+          "id": "thermodynamics",
+          "weight": 2
+        },
+        {
+          "id": "manufacturing-process",
+          "weight": 2
+        },
+        {
+          "id": "solidworks",
+          "weight": 2
+        },
+        {
+          "id": "quality-control",
+          "weight": 1
+        },
+        {
+          "id": "preventive-maintenance",
+          "weight": 1
+        },
+        {
+          "id": "problem-solving",
+          "weight": 1
+        }
+      ]
+    },
+    "staff-nurse": {
+      "title": "Staff Nurse",
+      "tagline": "The constant presence at the bedside",
+      "category": "Healthcare",
+      "skills": [
+        {
+          "id": "patient-care",
+          "weight": 3
+        },
+        {
+          "id": "clinical-procedures",
+          "weight": 3
+        },
+        {
+          "id": "vital-signs",
+          "weight": 3
+        },
+        {
+          "id": "infection-control",
+          "weight": 2
+        },
+        {
+          "id": "medical-terminology",
+          "weight": 2
+        },
+        {
+          "id": "anatomy",
+          "weight": 2
+        },
+        {
+          "id": "empathy",
+          "weight": 2
+        },
+        {
+          "id": "emr",
+          "weight": 1
+        },
+        {
+          "id": "communication",
+          "weight": 2
+        }
+      ]
+    },
+    "pharmacist": {
+      "title": "Pharmacist",
+      "tagline": "The last safety check on every prescription",
+      "category": "Healthcare",
+      "skills": [
+        {
+          "id": "pharmacology",
+          "weight": 3
+        },
+        {
+          "id": "dispensing",
+          "weight": 3
+        },
+        {
+          "id": "medical-terminology",
+          "weight": 2
+        },
+        {
+          "id": "inventory-management",
+          "weight": 2
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 3
+        },
+        {
+          "id": "customer-service",
+          "weight": 1
+        },
+        {
+          "id": "compliance",
+          "weight": 1
+        }
+      ]
+    },
+    "medical-lab-technician": {
+      "title": "Medical Lab Technician",
+      "tagline": "Produces the result the diagnosis depends on",
+      "category": "Healthcare",
+      "skills": [
+        {
+          "id": "lab-techniques",
+          "weight": 3
+        },
+        {
+          "id": "phlebotomy",
+          "weight": 3
+        },
+        {
+          "id": "infection-control",
+          "weight": 2
+        },
+        {
+          "id": "medical-terminology",
+          "weight": 2
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 3
+        },
+        {
+          "id": "documentation",
+          "weight": 1
+        },
+        {
+          "id": "emr",
+          "weight": 1
+        }
+      ]
+    },
+    "physiotherapist": {
+      "title": "Physiotherapist",
+      "tagline": "Gets people moving again",
+      "category": "Healthcare",
+      "skills": [
+        {
+          "id": "physiotherapy-techniques",
+          "weight": 3
+        },
+        {
+          "id": "anatomy",
+          "weight": 3
+        },
+        {
+          "id": "patient-care",
+          "weight": 2
+        },
+        {
+          "id": "clinical-procedures",
+          "weight": 2
+        },
+        {
+          "id": "empathy",
+          "weight": 2
+        },
+        {
+          "id": "communication",
+          "weight": 2
+        },
+        {
+          "id": "documentation",
+          "weight": 1
+        }
+      ]
+    },
+    "school-teacher": {
+      "title": "School Teacher",
+      "tagline": "Where most careers actually begin",
+      "category": "Education",
+      "skills": [
+        {
+          "id": "subject-expertise",
+          "weight": 3
+        },
+        {
+          "id": "lesson-planning",
+          "weight": 3
+        },
+        {
+          "id": "classroom-management",
+          "weight": 3
+        },
+        {
+          "id": "student-assessment",
+          "weight": 2
+        },
+        {
+          "id": "communication",
+          "weight": 3
+        },
+        {
+          "id": "edtech-tools",
+          "weight": 1
+        },
+        {
+          "id": "empathy",
+          "weight": 2
+        }
+      ]
+    },
+    "academic-content-developer": {
+      "title": "Academic Content Developer",
+      "tagline": "Builds what students actually learn from",
+      "category": "Education",
+      "skills": [
+        {
+          "id": "curriculum-development",
+          "weight": 3
+        },
+        {
+          "id": "subject-expertise",
+          "weight": 3
+        },
+        {
+          "id": "content-writing",
+          "weight": 2
+        },
+        {
+          "id": "editing-proofreading",
+          "weight": 2
+        },
+        {
+          "id": "student-assessment",
+          "weight": 2
+        },
+        {
+          "id": "edtech-tools",
+          "weight": 1
+        },
+        {
+          "id": "ms-office",
+          "weight": 1
+        }
+      ]
+    },
+    "legal-associate": {
+      "title": "Legal Associate",
+      "tagline": "Does the research the case is built on",
+      "category": "Legal",
+      "skills": [
+        {
+          "id": "legal-research",
+          "weight": 3
+        },
+        {
+          "id": "legal-documentation",
+          "weight": 3
+        },
+        {
+          "id": "contract-drafting",
+          "weight": 2
+        },
+        {
+          "id": "compliance",
+          "weight": 2
+        },
+        {
+          "id": "litigation",
+          "weight": 2
+        },
+        {
+          "id": "editing-proofreading",
+          "weight": 1
+        },
+        {
+          "id": "attention-to-detail",
+          "weight": 2
+        },
+        {
+          "id": "communication",
+          "weight": 2
+        }
+      ]
+    },
+    "hotel-front-office": {
+      "title": "Hotel Front Office Executive",
+      "tagline": "The first face every guest meets",
+      "category": "Hospitality & Tourism",
+      "skills": [
+        {
+          "id": "front-office",
+          "weight": 3
+        },
+        {
+          "id": "guest-relations",
+          "weight": 3
+        },
+        {
+          "id": "communication",
+          "weight": 3
+        },
+        {
+          "id": "customer-service",
+          "weight": 2
+        },
+        {
+          "id": "pos-systems",
+          "weight": 1
+        },
+        {
+          "id": "ms-office",
+          "weight": 1
+        },
+        {
+          "id": "multitasking",
+          "weight": 2
+        }
+      ]
+    },
+    "chef": {
+      "title": "Chef / Commis",
+      "tagline": "Consistency under pressure, every service",
+      "category": "Hospitality & Tourism",
+      "skills": [
+        {
+          "id": "culinary-skills",
+          "weight": 3
+        },
+        {
+          "id": "food-safety",
+          "weight": 3
+        },
+        {
+          "id": "menu-planning",
+          "weight": 2
+        },
+        {
+          "id": "inventory-management",
+          "weight": 2
+        },
+        {
+          "id": "time-management",
+          "weight": 2
+        },
+        {
+          "id": "teamwork",
+          "weight": 2
+        },
+        {
+          "id": "leadership",
+          "weight": 1
+        }
+      ]
+    },
+    "event-manager": {
+      "title": "Event Management Executive",
+      "tagline": "Makes a hundred moving parts land on time",
+      "category": "Hospitality & Tourism",
+      "skills": [
+        {
+          "id": "event-management",
+          "weight": 3
+        },
+        {
+          "id": "vendor-management",
+          "weight": 2
+        },
+        {
+          "id": "communication",
+          "weight": 3
+        },
+        {
+          "id": "project-management",
+          "weight": 2
+        },
+        {
+          "id": "negotiation",
+          "weight": 2
+        },
+        {
+          "id": "time-management",
+          "weight": 2
+        },
+        {
+          "id": "ms-office",
+          "weight": 1
+        },
+        {
+          "id": "multitasking",
+          "weight": 2
+        }
+      ]
+    },
+    "agriculture-officer": {
+      "title": "Agriculture Officer",
+      "tagline": "Bridges the science and the field",
+      "category": "Agriculture",
+      "skills": [
+        {
+          "id": "agronomy",
+          "weight": 3
+        },
+        {
+          "id": "crop-management",
+          "weight": 3
+        },
+        {
+          "id": "soil-science",
+          "weight": 2
+        },
+        {
+          "id": "pest-management",
+          "weight": 2
+        },
+        {
+          "id": "farm-equipment",
+          "weight": 1
+        },
+        {
+          "id": "communication",
+          "weight": 2
+        },
+        {
+          "id": "reporting",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "resources": {
+    "html": {
+      "platform": "MDN Web Docs",
+      "action": "Work through the HTML basics module"
+    },
+    "css": {
+      "platform": "freeCodeCamp",
+      "action": "Complete the Responsive Web Design certification"
+    },
+    "javascript": {
+      "platform": "JavaScript.info",
+      "action": "Finish the core fundamentals + DOM sections"
+    },
+    "typescript": {
+      "platform": "TypeScript Handbook",
+      "action": "Read the official handbook, then convert a small JS project"
+    },
+    "react": {
+      "platform": "React.dev",
+      "action": "Build 2 small projects using the official quick-start tutorial"
+    },
+    "redux": {
+      "platform": "Redux Toolkit docs",
+      "action": "Rebuild one existing project's state with Redux Toolkit"
+    },
+    "vue": {
+      "platform": "Vue.js official guide",
+      "action": "Follow the official guide and build a to-do app"
+    },
+    "angular": {
+      "platform": "Angular.dev",
+      "action": "Complete the official 'Tour of Heroes' tutorial"
+    },
+    "nextjs": {
+      "platform": "Next.js Learn",
+      "action": "Complete the official interactive Next.js course"
+    },
+    "tailwind": {
+      "platform": "Tailwind CSS docs",
+      "action": "Rebuild one existing page's CSS using Tailwind utilities"
+    },
+    "responsive-design": {
+      "platform": "freeCodeCamp",
+      "action": "Practice mobile-first layouts with CSS Grid & Flexbox"
+    },
+    "nodejs": {
+      "platform": "Node.js official docs",
+      "action": "Build a small CLI tool or REST server from scratch"
+    },
+    "express": {
+      "platform": "Express.js docs",
+      "action": "Build a CRUD API with routing, middleware, and error handling"
+    },
+    "python": {
+      "platform": "Python.org tutorial",
+      "action": "Finish the official tutorial, then solve 30 practice problems"
+    },
+    "django": {
+      "platform": "Django official tutorial",
+      "action": "Complete the official 'polls app' tutorial"
+    },
+    "flask": {
+      "platform": "Flask official docs",
+      "action": "Build a small API-driven web app"
+    },
+    "java": {
+      "platform": "Java Programming (Oracle docs)",
+      "action": "Practice OOP concepts with 10 small programs"
+    },
+    "spring-boot": {
+      "platform": "Spring.io guides",
+      "action": "Follow the 'Building a RESTful Web Service' guide"
+    },
+    "php": {
+      "platform": "PHP.net manual",
+      "action": "Build a simple form-handling backend"
+    },
+    "c": {
+      "platform": "GeeksforGeeks",
+      "action": "Practice pointers and memory management problems"
+    },
+    "cpp": {
+      "platform": "GeeksforGeeks",
+      "action": "Practice STL and OOP-based problem sets"
+    },
+    "csharp": {
+      "platform": "Microsoft Learn",
+      "action": "Complete the C# fundamentals learning path"
+    },
+    "sql": {
+      "platform": "SQLBolt / Mode SQL Tutorial",
+      "action": "Practice joins, aggregations, and subqueries"
+    },
+    "mongodb": {
+      "platform": "MongoDB University (free)",
+      "action": "Complete the M001 basics course"
+    },
+    "firebase": {
+      "platform": "Firebase official docs",
+      "action": "Connect Firebase auth + Firestore to one project"
+    },
+    "git": {
+      "platform": "GitHub Skills",
+      "action": "Complete the 'Introduction to GitHub' course"
+    },
+    "docker": {
+      "platform": "Docker official docs",
+      "action": "Containerize one existing project end-to-end"
+    },
+    "kubernetes": {
+      "platform": "Kubernetes.io basics",
+      "action": "Complete the interactive 'Kubernetes Basics' tutorial"
+    },
+    "aws": {
+      "platform": "AWS Skill Builder (free tier)",
+      "action": "Finish 'AWS Cloud Practitioner Essentials'"
+    },
+    "azure": {
+      "platform": "Microsoft Learn",
+      "action": "Complete the Azure Fundamentals learning path"
+    },
+    "gcp": {
+      "platform": "Google Cloud Skills Boost",
+      "action": "Complete the Cloud Digital Leader intro path"
+    },
+    "ci-cd": {
+      "platform": "GitHub Actions docs",
+      "action": "Set up an automated build + test pipeline on one repo"
+    },
+    "linux": {
+      "platform": "Linux Journey",
+      "action": "Work through the command line basics track"
+    },
+    "rest-api": {
+      "platform": "Postman Academy",
+      "action": "Build and document one REST API end-to-end"
+    },
+    "graphql": {
+      "platform": "GraphQL.org",
+      "action": "Complete the official introduction and build one query layer"
+    },
+    "pandas": {
+      "platform": "Kaggle Learn",
+      "action": "Complete the free 'Pandas' micro-course"
+    },
+    "numpy": {
+      "platform": "NumPy official quickstart",
+      "action": "Practice array operations on a real dataset"
+    },
+    "excel": {
+      "platform": "Microsoft Excel Learning",
+      "action": "Practice pivot tables, VLOOKUP, and dashboards"
+    },
+    "powerbi": {
+      "platform": "Microsoft Learn",
+      "action": "Complete the 'Data Analytics with Power BI' path"
+    },
+    "tableau": {
+      "platform": "Tableau Public + free training",
+      "action": "Rebuild one dashboard from a public dataset"
+    },
+    "data-visualization": {
+      "platform": "Kaggle Learn",
+      "action": "Complete the 'Data Visualization' micro-course"
+    },
+    "statistics": {
+      "platform": "Khan Academy",
+      "action": "Complete the Statistics & Probability course"
+    },
+    "machine-learning": {
+      "platform": "Andrew Ng's ML course (Coursera, free audit)",
+      "action": "Finish the supervised learning modules"
+    },
+    "deep-learning": {
+      "platform": "DeepLearning.AI (free audit)",
+      "action": "Complete the neural networks basics course"
+    },
+    "tensorflow": {
+      "platform": "TensorFlow official tutorials",
+      "action": "Build one image classifier end-to-end"
+    },
+    "pytorch": {
+      "platform": "PyTorch official tutorials",
+      "action": "Complete the 'Learn the Basics' series"
+    },
+    "scikit-learn": {
+      "platform": "Scikit-learn official docs",
+      "action": "Build one classification and one regression model"
+    },
+    "nlp": {
+      "platform": "Hugging Face NLP course (free)",
+      "action": "Complete chapters 1-3"
+    },
+    "computer-vision": {
+      "platform": "OpenCV official tutorials",
+      "action": "Build a simple image-processing pipeline"
+    },
+    "android": {
+      "platform": "Android Developers (official)",
+      "action": "Complete the 'Basics in Kotlin' course"
+    },
+    "kotlin": {
+      "platform": "Kotlin official docs",
+      "action": "Complete the Kotlin Koans exercises"
+    },
+    "flutter": {
+      "platform": "Flutter.dev codelabs",
+      "action": "Complete the first Flutter app codelab"
+    },
+    "swift": {
+      "platform": "Swift.org / Apple Developer",
+      "action": "Complete the 'Develop in Swift' tutorials"
+    },
+    "react-native": {
+      "platform": "React Native official docs",
+      "action": "Build one cross-platform screen end-to-end"
+    },
+    "figma": {
+      "platform": "Figma official tutorials",
+      "action": "Recreate one existing app screen pixel by pixel"
+    },
+    "adobe-xd": {
+      "platform": "Adobe XD tutorials",
+      "action": "Build one clickable prototype"
+    },
+    "wireframing": {
+      "platform": "Figma Community templates",
+      "action": "Wireframe one app flow from scratch"
+    },
+    "user-research": {
+      "platform": "Nielsen Norman Group articles",
+      "action": "Run one 5-user usability test"
+    },
+    "design-systems": {
+      "platform": "Design Systems Handbook (free)",
+      "action": "Build a small component library in Figma"
+    },
+    "manual-testing": {
+      "platform": "Guru99 free tutorials",
+      "action": "Write test cases for one existing app"
+    },
+    "selenium": {
+      "platform": "Selenium official docs",
+      "action": "Automate one login + form-submission flow"
+    },
+    "test-cases": {
+      "platform": "ISTQB free resources",
+      "action": "Practice writing boundary-value test cases"
+    },
+    "jira": {
+      "platform": "Atlassian University (free)",
+      "action": "Complete the Jira fundamentals course"
+    },
+    "postman": {
+      "platform": "Postman Academy",
+      "action": "Complete the API testing basics course"
+    },
+    "seo": {
+      "platform": "Google SEO Starter Guide",
+      "action": "Audit and optimize one real webpage"
+    },
+    "content-marketing": {
+      "platform": "HubSpot Academy (free)",
+      "action": "Complete the Content Marketing certification"
+    },
+    "google-analytics": {
+      "platform": "Google Skillshop",
+      "action": "Complete the GA4 certification"
+    },
+    "social-media-marketing": {
+      "platform": "HubSpot Academy (free)",
+      "action": "Complete the Social Media Marketing course"
+    },
+    "google-ads": {
+      "platform": "Google Skillshop",
+      "action": "Complete the Google Ads Search certification"
+    },
+    "network-security": {
+      "platform": "Cisco Networking Academy (free)",
+      "action": "Complete 'Introduction to Cybersecurity'"
+    },
+    "ethical-hacking": {
+      "platform": "TryHackMe free rooms",
+      "action": "Complete the 'Pre Security' learning path"
+    },
+    "cryptography": {
+      "platform": "Khan Academy",
+      "action": "Complete the Cryptography unit"
+    },
+    "siem": {
+      "platform": "Splunk Free Training",
+      "action": "Complete the Splunk fundamentals course"
+    },
+    "communication": {
+      "platform": "Toastmasters / practice",
+      "action": "Practice explaining one project out loud in 60 seconds"
+    },
+    "problem-solving": {
+      "platform": "LeetCode / HackerRank",
+      "action": "Solve problems consistently, 3 per week"
+    },
+    "teamwork": {
+      "platform": "Group projects / open source",
+      "action": "Contribute to one open-source or group project"
+    },
+    "tally": {
+      "platform": "Tally Education (free learning portal)",
+      "action": "Complete the Tally Essentials Level 1 modules"
+    },
+    "bookkeeping": {
+      "platform": "OpenLearn / Alison free courses",
+      "action": "Practice recording a full month of entries in a ledger"
+    },
+    "financial-accounting": {
+      "platform": "NPTEL / Swayam free course",
+      "action": "Work through journal, ledger, and final accounts problems"
+    },
+    "taxation": {
+      "platform": "ClearTax learning centre",
+      "action": "Practice filing a sample GST return and an ITR-1"
+    },
+    "auditing": {
+      "platform": "ICAI study material (free)",
+      "action": "Study the audit procedures module and work one sample audit checklist"
+    },
+    "financial-analysis": {
+      "platform": "CFI free courses",
+      "action": "Analyze one listed company's annual report end to end"
+    },
+    "financial-modeling": {
+      "platform": "CFI free modeling course",
+      "action": "Build a 3-statement model for one company in Excel"
+    },
+    "accounts-payable": {
+      "platform": "AccountingCoach (free)",
+      "action": "Practice the full purchase-to-pay cycle with sample invoices"
+    },
+    "accounts-receivable": {
+      "platform": "AccountingCoach (free)",
+      "action": "Practice ageing analysis and collections tracking in Excel"
+    },
+    "sap": {
+      "platform": "openSAP (free courses)",
+      "action": "Complete an SAP S/4HANA fundamentals course"
+    },
+    "quickbooks": {
+      "platform": "QuickBooks official tutorials",
+      "action": "Set up a sample company file and record a month of transactions"
+    },
+    "payroll": {
+      "platform": "ClearTax / Zoho Payroll guides",
+      "action": "Compute a sample payroll with PF, ESI, and TDS deductions"
+    },
+    "banking-operations": {
+      "platform": "IIBF free resources",
+      "action": "Study the retail banking products and KYC norms modules"
+    },
+    "risk-analysis": {
+      "platform": "CFI free credit fundamentals",
+      "action": "Assess the creditworthiness of one sample borrower profile"
+    },
+    "equity-research": {
+      "platform": "Zerodha Varsity (free)",
+      "action": "Write one equity research note on a listed company"
+    },
+    "recruitment": {
+      "platform": "LinkedIn Talent Blog / HubSpot Academy",
+      "action": "Source and shortlist 10 candidates for a sample job description"
+    },
+    "interviewing": {
+      "platform": "Harvard Business Review articles",
+      "action": "Run three mock interviews using a structured scorecard"
+    },
+    "onboarding": {
+      "platform": "SHRM free resources",
+      "action": "Design a 30-day onboarding plan for one role"
+    },
+    "hr-policies": {
+      "platform": "SHRM / Indian labour law portals",
+      "action": "Draft a sample leave and attendance policy"
+    },
+    "hrms": {
+      "platform": "Zoho People / Keka free trials",
+      "action": "Set up a demo employee database and run one attendance cycle"
+    },
+    "employee-engagement": {
+      "platform": "Gallup research articles (free)",
+      "action": "Design an employee pulse survey and analyze sample results"
+    },
+    "labour-law": {
+      "platform": "India Code / labour ministry portal",
+      "action": "Study the PF, ESI, and Shops & Establishments Act basics"
+    },
+    "performance-management": {
+      "platform": "SHRM free toolkit",
+      "action": "Write sample KRAs and an appraisal form for one role"
+    },
+    "crm": {
+      "platform": "HubSpot Academy (free)",
+      "action": "Complete the CRM fundamentals course and set up a demo pipeline"
+    },
+    "lead-generation": {
+      "platform": "HubSpot Academy (free)",
+      "action": "Build a list of 50 qualified leads for a sample product"
+    },
+    "negotiation": {
+      "platform": "Coursera \"Successful Negotiation\" (free audit)",
+      "action": "Practice three role-play negotiations with a peer"
+    },
+    "cold-calling": {
+      "platform": "HubSpot Sales Blog",
+      "action": "Write a 30-second pitch script and practice 20 calls"
+    },
+    "b2b-sales": {
+      "platform": "HubSpot Academy (free)",
+      "action": "Complete the inbound sales certification"
+    },
+    "market-research": {
+      "platform": "Google Market Finder + free reports",
+      "action": "Write one competitor analysis report for a chosen product"
+    },
+    "presentation-skills": {
+      "platform": "TED Talks + practice",
+      "action": "Deliver one 5-minute pitch and record yourself to review"
+    },
+    "customer-service": {
+      "platform": "HubSpot Academy (free)",
+      "action": "Complete the customer service certification"
+    },
+    "retail-operations": {
+      "platform": "Alison free retail courses",
+      "action": "Study store layout, billing, and stock replenishment basics"
+    },
+    "inventory-management": {
+      "platform": "Alison / Coursera free audit",
+      "action": "Practice EOQ and reorder-level calculations on sample data"
+    },
+    "visual-merchandising": {
+      "platform": "Alison free course",
+      "action": "Redesign one store display and document the reasoning"
+    },
+    "supply-chain": {
+      "platform": "MIT OpenCourseWare / Coursera audit",
+      "action": "Map an end-to-end supply chain for one product"
+    },
+    "logistics": {
+      "platform": "Alison free logistics course",
+      "action": "Plan a sample shipment route with cost comparison"
+    },
+    "procurement": {
+      "platform": "CIPS free resources",
+      "action": "Run a sample vendor comparison and write a purchase recommendation"
+    },
+    "warehouse-management": {
+      "platform": "Alison free course",
+      "action": "Design a sample warehouse layout with picking strategy"
+    },
+    "lean-six-sigma": {
+      "platform": "ASQ / Coursera free audit",
+      "action": "Complete a Six Sigma Yellow Belt course and one DMAIC case"
+    },
+    "process-improvement": {
+      "platform": "Lean Enterprise Institute (free articles)",
+      "action": "Map and improve one real process you know well"
+    },
+    "vendor-management": {
+      "platform": "CIPS free resources",
+      "action": "Build a vendor scorecard and evaluate three sample suppliers"
+    },
+    "requirement-gathering": {
+      "platform": "IIBA free resources",
+      "action": "Write a requirements document for a small app idea"
+    },
+    "business-analysis": {
+      "platform": "IIBA BABOK overview (free)",
+      "action": "Prepare a BRD and process flow for one business scenario"
+    },
+    "stakeholder-management": {
+      "platform": "PMI free articles",
+      "action": "Build a stakeholder matrix for a sample project"
+    },
+    "project-management": {
+      "platform": "Google Project Management (Coursera, free audit)",
+      "action": "Plan one project end to end with timeline and risks"
+    },
+    "agile-scrum": {
+      "platform": "Scrum.org free Scrum Guide",
+      "action": "Read the Scrum Guide and run one sprint on a personal project"
+    },
+    "ms-office": {
+      "platform": "Microsoft Learn (free)",
+      "action": "Practice Word formatting, Excel formulas, and PowerPoint decks"
+    },
+    "documentation": {
+      "platform": "Google Technical Writing (free)",
+      "action": "Complete Technical Writing One and document one process"
+    },
+    "reporting": {
+      "platform": "Microsoft Learn / Excel training",
+      "action": "Build one automated MIS dashboard from raw data"
+    },
+    "data-entry": {
+      "platform": "TypingClub + Excel basics",
+      "action": "Practice accurate bulk entry with validation checks"
+    },
+    "typing-speed": {
+      "platform": "TypingClub / Keybr (free)",
+      "action": "Practice daily until you reach 40+ WPM with high accuracy"
+    },
+    "autocad": {
+      "platform": "Autodesk free tutorials",
+      "action": "Draft one complete 2D component drawing with dimensions"
+    },
+    "solidworks": {
+      "platform": "SolidWorks tutorials (built-in)",
+      "action": "Model and assemble one multi-part product"
+    },
+    "catia": {
+      "platform": "Dassault free learning resources",
+      "action": "Complete a part design and assembly exercise"
+    },
+    "ansys": {
+      "platform": "ANSYS Innovation Courses (free)",
+      "action": "Run one structural stress simulation end to end"
+    },
+    "gd-t": {
+      "platform": "ASME / free GD&T primers",
+      "action": "Annotate one drawing fully with GD&T symbols"
+    },
+    "cnc": {
+      "platform": "Titans of CNC Academy (free)",
+      "action": "Complete the beginner CNC programming series"
+    },
+    "manufacturing-process": {
+      "platform": "NPTEL free course",
+      "action": "Study casting, welding, machining, and forming modules"
+    },
+    "thermodynamics": {
+      "platform": "NPTEL / MIT OCW",
+      "action": "Work through the core thermodynamics problem sets"
+    },
+    "quality-control": {
+      "platform": "ASQ free resources",
+      "action": "Practice building control charts and inspection plans"
+    },
+    "iso-standards": {
+      "platform": "ISO official overviews",
+      "action": "Study ISO 9001 clauses and draft a sample quality manual section"
+    },
+    "preventive-maintenance": {
+      "platform": "Alison free maintenance course",
+      "action": "Build a preventive maintenance schedule for sample machinery"
+    },
+    "production-planning": {
+      "platform": "NPTEL / Alison free course",
+      "action": "Create a sample production plan with capacity calculations"
+    },
+    "staad-pro": {
+      "platform": "Bentley official tutorials",
+      "action": "Analyze and design one simple steel frame"
+    },
+    "revit": {
+      "platform": "Autodesk free tutorials",
+      "action": "Model one small building with BIM elements"
+    },
+    "structural-analysis": {
+      "platform": "NPTEL free course",
+      "action": "Solve beam, truss, and frame analysis problem sets"
+    },
+    "surveying": {
+      "platform": "NPTEL / field practice",
+      "action": "Complete one site survey exercise with a total station"
+    },
+    "construction-management": {
+      "platform": "NPTEL / Coursera free audit",
+      "action": "Build a construction schedule for a small project"
+    },
+    "estimation-costing": {
+      "platform": "NPTEL free course",
+      "action": "Prepare a complete BOQ for a single-room structure"
+    },
+    "concrete-technology": {
+      "platform": "NPTEL free course",
+      "action": "Work through mix design calculations for M20 and M25"
+    },
+    "site-supervision": {
+      "platform": "Alison free construction course",
+      "action": "Study site safety, quality checks, and daily progress reporting"
+    },
+    "circuit-design": {
+      "platform": "All About Circuits (free textbook)",
+      "action": "Design and simulate five basic circuits"
+    },
+    "plc-scada": {
+      "platform": "Free PLC simulator + YouTube courses",
+      "action": "Program one ladder-logic automation sequence"
+    },
+    "power-systems": {
+      "platform": "NPTEL free course",
+      "action": "Study load flow, fault analysis, and protection modules"
+    },
+    "embedded-systems": {
+      "platform": "Arduino official tutorials",
+      "action": "Build three microcontroller projects end to end"
+    },
+    "matlab": {
+      "platform": "MATLAB Onramp (free)",
+      "action": "Complete the official MATLAB and Simulink Onramp courses"
+    },
+    "electrical-safety": {
+      "platform": "OSHA / NEC free resources",
+      "action": "Study the electrical safety and earthing standards"
+    },
+    "vlsi": {
+      "platform": "NPTEL free VLSI course",
+      "action": "Write and simulate five Verilog modules"
+    },
+    "iot": {
+      "platform": "Cisco Networking Academy (free)",
+      "action": "Complete \"Introduction to IoT\" and build one sensor project"
+    },
+    "pcb-design": {
+      "platform": "KiCad official docs (free tool)",
+      "action": "Design one complete two-layer PCB"
+    },
+    "patient-care": {
+      "platform": "Nursing council guidelines + clinical practice",
+      "action": "Practice care plans across common ward scenarios"
+    },
+    "clinical-procedures": {
+      "platform": "WHO / clinical skill guides",
+      "action": "Practice core procedures under supervised clinical training"
+    },
+    "medical-terminology": {
+      "platform": "Free medical terminology courses (Alison)",
+      "action": "Learn root words, prefixes, and suffixes systematically"
+    },
+    "pharmacology": {
+      "platform": "NPTEL / standard pharmacology texts",
+      "action": "Revise drug classes, mechanisms, and interactions"
+    },
+    "dispensing": {
+      "platform": "Pharmacy council guidelines",
+      "action": "Practice prescription reading and dispensing documentation"
+    },
+    "lab-techniques": {
+      "platform": "WHO lab manuals (free)",
+      "action": "Practice sample handling, staining, and analyzer operation"
+    },
+    "phlebotomy": {
+      "platform": "WHO phlebotomy guidelines (free)",
+      "action": "Practice venipuncture technique under supervision"
+    },
+    "infection-control": {
+      "platform": "WHO infection prevention course (free)",
+      "action": "Complete the hand hygiene and sterilization modules"
+    },
+    "emr": {
+      "platform": "Hospital HMIS demos / free trials",
+      "action": "Practice patient record entry on a demo system"
+    },
+    "anatomy": {
+      "platform": "Kenhub / free anatomy atlases",
+      "action": "Revise systems one at a time with self-testing"
+    },
+    "physiotherapy-techniques": {
+      "platform": "Physiopedia (free)",
+      "action": "Study common rehab protocols and practice assessments"
+    },
+    "vital-signs": {
+      "platform": "WHO / nursing skill guides",
+      "action": "Practice accurate BP, pulse, temperature, and SpO2 recording"
+    },
+    "lesson-planning": {
+      "platform": "Khan Academy Teacher resources",
+      "action": "Write five lesson plans with objectives and assessments"
+    },
+    "classroom-management": {
+      "platform": "Edutopia (free articles)",
+      "action": "Study behaviour management strategies and try them in practice"
+    },
+    "curriculum-development": {
+      "platform": "NCERT / CBSE frameworks",
+      "action": "Map one term's curriculum with learning outcomes"
+    },
+    "student-assessment": {
+      "platform": "Edutopia / assessment guides",
+      "action": "Design formative and summative assessments for one unit"
+    },
+    "subject-expertise": {
+      "platform": "NPTEL / subject textbooks",
+      "action": "Revise the full syllabus you intend to teach and self-test"
+    },
+    "edtech-tools": {
+      "platform": "Google for Education (free training)",
+      "action": "Complete the Google Classroom educator course"
+    },
+    "content-writing": {
+      "platform": "HubSpot Academy (free)",
+      "action": "Write 10 blog posts and build a portfolio"
+    },
+    "editing-proofreading": {
+      "platform": "Grammarly Handbook / Purdue OWL",
+      "action": "Edit five sample articles against a style guide"
+    },
+    "storytelling": {
+      "platform": "Pixar in a Box (Khan Academy, free)",
+      "action": "Complete the storytelling course and write one narrative piece"
+    },
+    "wordpress": {
+      "platform": "WordPress.org learn portal",
+      "action": "Build and publish one complete website"
+    },
+    "adobe-photoshop": {
+      "platform": "Adobe free tutorials",
+      "action": "Recreate five designs to practice core tools"
+    },
+    "adobe-illustrator": {
+      "platform": "Adobe free tutorials",
+      "action": "Design five vector logos from scratch"
+    },
+    "canva": {
+      "platform": "Canva Design School (free)",
+      "action": "Complete the graphic design essentials course"
+    },
+    "premiere-pro": {
+      "platform": "Adobe free tutorials",
+      "action": "Edit one complete 3-minute video with transitions and audio"
+    },
+    "after-effects": {
+      "platform": "Adobe free tutorials",
+      "action": "Create one animated title sequence"
+    },
+    "video-editing": {
+      "platform": "DaVinci Resolve free training",
+      "action": "Edit three short videos end to end"
+    },
+    "photography": {
+      "platform": "Free photography courses (Alison)",
+      "action": "Practice exposure triangle with 100 deliberate shots"
+    },
+    "typography": {
+      "platform": "Practical Typography (free online book)",
+      "action": "Redesign one poster focusing only on type"
+    },
+    "branding": {
+      "platform": "Free branding courses (HubSpot)",
+      "action": "Build one complete brand identity kit for a fictional company"
+    },
+    "journalism": {
+      "platform": "Reuters / BBC Academy free resources",
+      "action": "Write five news reports following the inverted pyramid"
+    },
+    "script-writing": {
+      "platform": "BBC Writers Room (free)",
+      "action": "Write one short film script with proper formatting"
+    },
+    "legal-research": {
+      "platform": "Indian Kanoon / SCC Online basics",
+      "action": "Research and summarize five judgments on one legal issue"
+    },
+    "contract-drafting": {
+      "platform": "Free legal drafting guides",
+      "action": "Draft an NDA, a service agreement, and a lease deed"
+    },
+    "compliance": {
+      "platform": "MCA / SEBI official portals",
+      "action": "Study the compliance calendar for one company type"
+    },
+    "litigation": {
+      "platform": "Court procedure handbooks",
+      "action": "Study civil and criminal procedure basics, observe court proceedings"
+    },
+    "legal-documentation": {
+      "platform": "Free legal drafting guides",
+      "action": "Practice drafting plaints, notices, and affidavits"
+    },
+    "front-office": {
+      "platform": "Alison free hospitality course",
+      "action": "Practice check-in, check-out, and reservation handling"
+    },
+    "guest-relations": {
+      "platform": "Alison free hospitality course",
+      "action": "Study complaint handling and service-recovery techniques"
+    },
+    "food-beverage": {
+      "platform": "Alison free F&B course",
+      "action": "Study service sequences, cutlery, and order-taking"
+    },
+    "culinary-skills": {
+      "platform": "Culinary basics courses (Alison)",
+      "action": "Master five mother sauces and core knife skills"
+    },
+    "food-safety": {
+      "platform": "FSSAI / FoSTaC training",
+      "action": "Complete a food-safety supervisor training module"
+    },
+    "housekeeping": {
+      "platform": "Alison free hospitality course",
+      "action": "Study room-cleaning standards and linen management"
+    },
+    "pos-systems": {
+      "platform": "Free POS software trials",
+      "action": "Practice full billing, discount, and settlement flows"
+    },
+    "event-management": {
+      "platform": "Alison free event course",
+      "action": "Plan one full event with budget, timeline, and vendor list"
+    },
+    "menu-planning": {
+      "platform": "Culinary management resources",
+      "action": "Build one menu with costing and profit margins"
+    },
+    "agronomy": {
+      "platform": "ICAR / NPTEL free courses",
+      "action": "Study cropping systems and nutrient management"
+    },
+    "soil-science": {
+      "platform": "ICAR e-courses (free)",
+      "action": "Practice soil sample collection and testing interpretation"
+    },
+    "crop-management": {
+      "platform": "ICAR / KVK resources",
+      "action": "Prepare a season-long crop management plan"
+    },
+    "farm-equipment": {
+      "platform": "ICAR e-courses (free)",
+      "action": "Study tractor and implement operation and maintenance"
+    },
+    "pest-management": {
+      "platform": "ICAR / FAO free resources",
+      "action": "Study integrated pest management for two major crops"
+    },
+    "time-management": {
+      "platform": "Free productivity courses",
+      "action": "Track your time for one week and restructure your schedule"
+    },
+    "adaptability": {
+      "platform": "Practice + reflection",
+      "action": "Take on one task outside your comfort zone each week"
+    },
+    "leadership": {
+      "platform": "Free leadership courses (Coursera audit)",
+      "action": "Lead one group project or college initiative end to end"
+    },
+    "attention-to-detail": {
+      "platform": "Practice exercises",
+      "action": "Proofread and verify your own work with a checklist every time"
+    },
+    "multitasking": {
+      "platform": "Practice + prioritization frameworks",
+      "action": "Practice using Eisenhower matrix to juggle parallel tasks"
+    },
+    "empathy": {
+      "platform": "Free communication courses",
+      "action": "Practice active listening in every conversation for two weeks"
+    }
+  }
+}

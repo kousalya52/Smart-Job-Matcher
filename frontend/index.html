@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SkillPath — AI Job Match & Skill Gap Analyzer</title>
+<meta name="description" content="Upload your resume, pick a role, and get a personalized match score, ATS check, and skill roadmap — built for freshers.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <div class="nav__brand"><span class="nav__mark">S</span> SkillPath</div>
+    <div class="nav__links">
+      <a href="#how-it-works">How it works</a>
+      <a href="#analyze">Analyze</a>
+      <a href="#results">Results</a>
+    </div>
+    <button class="nav__cta" onclick="document.getElementById('analyze').scrollIntoView({behavior:'smooth'})">Analyze my resume</button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+  <div class="hero__grid">
+    <div>
+      <div class="hero__eyebrow"><span class="dot"></span> Built for freshers, not just job boards</div>
+      <h1>Stop guessing which job <span>fits you</span>.</h1>
+      <p class="hero__sub">Upload your resume, tell us the role you want, and get an honest match score, an ATS pass/fail check, and the exact skills to learn next — in under a minute. Covers IT and non-IT careers, from software to nursing to accounting.</p>
+      <div class="hero__actions">
+        <button class="btn btn--primary" onclick="document.getElementById('analyze').scrollIntoView({behavior:'smooth'})">Analyze my resume</button>
+        <button class="btn btn--ghost" onclick="document.getElementById('how-it-works').scrollIntoView({behavior:'smooth'})">See how it works</button>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat"><b>54</b><span>job roles, IT &amp; non-IT</span></div>
+        <div class="hero__stat"><b>214</b><span>skills tracked</span></div>
+        <div class="hero__stat"><b>13</b><span>career fields</span></div>
+      </div>
+    </div>
+
+    <div class="demo-card">
+      <div class="demo-card__head">
+        <span>Live preview</span>
+        <span class="demo-card__pulse"><span class="dot"></span> Scanning</span>
+      </div>
+      <div class="typewriter" id="heroTypewriter"></div>
+      <div class="demo-card__chart" id="heroChart"></div>
+    </div>
+  </div>
+  </div>
+</header>
+
+<section class="section" id="how-it-works">
+  <div class="container">
+    <div class="section__head">
+      <div class="section__kicker">The pipeline</div>
+      <h2>Three steps, one honest answer</h2>
+      <p>No login, no fake "AI magic" — just resume parsing and skill matching you can actually see happen.</p>
+    </div>
+    <div class="pipeline">
+      <div class="pipeline__step">
+        <div class="pipeline__num">01</div>
+        <h3>Parse your resume</h3>
+        <p>We read your PDF, DOCX, or pasted text and pull out your skills, sections, and contact details.</p>
+      </div>
+      <div class="pipeline__step">
+        <div class="pipeline__num">02</div>
+        <h3>Match against the role</h3>
+        <p>Your skills are weighed against what a target role — or a real job description — actually needs.</p>
+      </div>
+      <div class="pipeline__step">
+        <div class="pipeline__num">03</div>
+        <h3>Get your roadmap</h3>
+        <p>See your ATS score, your exact skill gaps, and where to learn each one — ranked by priority.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="analyze">
+  <div class="container">
+    <div class="section__head">
+      <div class="section__kicker">Step 1 &amp; 2</div>
+      <h2>Bring your resume and your target</h2>
+      <p>Nothing leaves your browser — the analysis runs locally, on the spot.</p>
+    </div>
+
+    <div class="analyze-grid">
+      <div class="panel">
+        <h3>Your resume</h3>
+        <p class="panel__hint">PDF, DOCX or TXT — or just paste the text below.</p>
+        <div class="dropzone" id="dropzone">
+          <svg class="dropzone__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 16V4M12 4l-4 4M12 4l4 4"/><path d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+          <strong>Drop your resume here</strong>
+          <span>or click to browse — PDF, DOCX, TXT</span>
+          <input type="file" id="fileInput" accept=".pdf,.docx,.txt">
+        </div>
+        <div class="file-chip" id="fileChip"><span id="fileChipName"></span><button id="fileChipRemove">✕</button></div>
+        <div class="divider-or">or paste resume text</div>
+        <textarea id="resumeText" placeholder="Paste your resume content here..."></textarea>
+      </div>
+
+      <div class="panel">
+        <h3>Target role</h3>
+        <p class="panel__hint">Pick a role from our catalog, or paste a real job description.</p>
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="role">Pick a role</button>
+          <button class="tab-btn" data-tab="jd">Paste job description</button>
+        </div>
+        <div id="tab-role">
+          <input type="search" id="roleSearch" class="role-search" placeholder="Search 54 roles — try &quot;nurse&quot;, &quot;accountant&quot;, &quot;civil&quot;...">
+          <div class="cat-filter" id="catFilter"></div>
+          <div class="role-grid" id="roleGrid"></div>
+          <p class="role-empty" id="roleEmpty">No role matches that search. Try a broader word, or paste the job description instead.</p>
+        </div>
+        <div id="tab-jd" style="display:none;">
+          <textarea id="jdText" placeholder="Paste the full job description here..." style="min-height: 220px;"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="run-bar">
+      <button class="btn btn--primary btn--run" id="runBtn" disabled>
+        <span class="spinner" id="runSpinner"></span>
+        <span id="runBtnText">Run analysis</span>
+      </button>
+    </div>
+    <div class="scan-status" id="scanStatus"></div>
+  </div>
+</section>
+
+<section class="section" id="results">
+  <div class="container">
+    <div class="section__head">
+      <div class="section__kicker">Step 3</div>
+      <h2 id="resultsHeading">Your results</h2>
+      <p id="resultsSub">Here's exactly where you stand — and what to do next.</p>
+    </div>
+
+    <div class="bento">
+      <div class="card bento__score">
+        <div class="card__title">Overall match</div>
+        <div class="card__sub" id="matchRoleName">—</div>
+        <div class="gauge-wrap">
+          <div id="gaugeContainer"></div>
+          <div class="verdict" id="verdictText"></div>
+        </div>
+      </div>
+
+      <div class="card bento__ats">
+        <div class="card__title">ATS compatibility check</div>
+        <div class="card__sub">Would this resume survive an automated screener?</div>
+        <div class="ats-total"><b id="atsScoreNum">0</b><span>/ 100</span></div>
+        <div class="checklist" id="atsChecklist"></div>
+      </div>
+
+      <div class="card bento__radar">
+        <div class="card__title">Skill coverage</div>
+        <div class="card__sub">Matched vs. missing, weighted by importance</div>
+        <div id="radarContainer"></div>
+        <div class="radar-legend">
+          <span><span class="legend-dot" style="background:var(--accent-match)"></span>Matched</span>
+          <span><span class="legend-dot" style="background:var(--accent-gap)"></span>Missing</span>
+        </div>
+      </div>
+
+      <div class="card bento__gaps">
+        <div class="card__title">Skill gap roadmap</div>
+        <div class="card__sub">What to learn next, and where</div>
+        <div class="gap-list" id="gapList"></div>
+      </div>
+
+      <div class="card bento__ranking">
+        <div class="card__title">Best-fit roles for your current profile</div>
+        <div class="card__sub">Based only on skills detected in your resume — sometimes the best fit isn't the role you picked</div>
+        <div id="rankingContainer"></div>
+      </div>
+    </div>
+
+    <div class="results-actions">
+      <button class="btn btn--ghost" onclick="window.print()">Download / print report</button>
+      <button class="btn btn--primary" onclick="document.getElementById('analyze').scrollIntoView({behavior:'smooth'})">Analyze another resume</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>SkillPath — a portfolio project. Runs entirely client-side, no data ever leaves your browser.</p>
+    <div class="footer__badges">
+      <span class="tech-badge">HTML5 / CSS3</span>
+      <span class="tech-badge">Vanilla JS</span>
+      <span class="tech-badge">PDF.js</span>
+      <span class="tech-badge">Mammoth.js</span>
+      <span class="tech-badge">Flask API (optional)</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+<script>
+  if (window.pdfjsLib) {
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+  }
+</script>
+<script src="js/data.js"></script>
+<script src="js/parser.js"></script>
+<script src="js/matcher.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
