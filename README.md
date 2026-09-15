@@ -1,58 +1,43 @@
-# SkillPath — AI-Powered Smart Job Matching & Skill Gap Analyzer
+# 💼 Smart Job Matcher
 
-# Smart Job Matcher
+A web application that analyzes resumes and matches candidates with suitable job roles based on their skills.
 
-A web-based resume analysis and job matching application that helps
-job seekers evaluate their resume against job requirements.
+### 🌐 Live Demo
 
-## Features
+https://smart-job-matcher-y6id.onrender.com
 
-- Resume upload
-- PDF/DOCX/TXT support
-- Skill extraction
-- Job matching
-- Weighted skill matching
-- ATS score
-- Missing skill detection
-- Job role ranking
-- Learning roadmap
-- Custom job description analysis
+### ✨ Features
 
-## Technologies
+* 📄 Resume upload (PDF, DOCX, TXT)
+* 🎯 Job Match Score
+* 🤖 ATS Score
+* ✅ Matched & missing skills
+* 📚 Skill-gap learning roadmap
+* 🏆 Job role ranking
 
-Frontend:
-- HTML
-- CSS
-- JavaScript
+### 🛠️ Technologies
 
-Backend:
-- Python
-- Flask
+**Frontend:** HTML, CSS, JavaScript
+**Backend:** Python, Flask
+**Libraries:** pypdf, python-docx, Flask-CORS
+**Deployment:** Render
 
-Libraries:
-- pypdf
-- python-docx
+### 🚀 Run Locally
 
-## How It Works
+```bash
+git clone https://github.com/kousalya52/Smart-Job-Matcher.git
+cd Smart-Job-Matcher
+python -m venv venv
+venv\Scripts\activate
+pip install -r backend/requirements.txt
+python backend/app.py
+```
 
-Resume
-   ↓
-Text Extraction
-   ↓
-Skill Extraction
-   ↓
-Job Requirement Analysis
-   ↓
-Weighted Matching
-   ↓
-ATS Analysis
-   ↓
-Results
+Open: `http://localhost:5000`
 
-## Future Improvements
+### 👩‍💻 Author
 
-- NLP-based semantic matching
-- Machine learning
-- Database integration
-- User authentication
-- Live job API integration
+**Kousalya M**
+B.Tech Artificial Intelligence & Data Science
+GitHub: https://github.com/kousalya52
+
